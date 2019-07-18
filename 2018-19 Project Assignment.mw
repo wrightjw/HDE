@@ -1,0 +1,1483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2018" minor="1"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="true" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1080" rtablesize="10" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Trebuchet MS" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Trebuchet MS" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Trebuchet MS" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Trebuchet MS" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Trebuchet MS" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Paragraph" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roma" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix=""/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Paragraph" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="6" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L460" drawlabel="true">
+<Input><Text-field style="Title" layout="Title" spacebelow="0"><Font size="14" italic="true">Honours Differential Equations</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L459" drawlabel="true">
+<Input><Text-field style="Title" layout="Title" spaceabove="0">Project Assignment</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1275" drawlabel="true">
+<Input><Text-field style="Text" layout="Title" spaceabove="0"><Font opaque="true" background="[255,255,153]" style="Title">James Wright (s1604483)</Font></Text-field>
+</Input>
+</Group></Presentation-Block>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Exercise 1</Text-field></Title>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">(a)</Text-field></Title><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L10068" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="true" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">JSFH</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2917" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+We can define our system of Differential Equations in Maple as follows:</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2217" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2913" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sys := {diff(x(t),t) = -x(t)+x(t)^2-3*x(t)*y(t), diff(y(t),t) = -y(t)-5*x(t)*y(t)+y(t)^2};</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2914" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3016" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">At the critical points, we have that </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3018" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRI2R4RicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRiM2Ji1GLzYmUSNkdEYnRjJGNUY4RjJGNUY4LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZFLyUpYmV2ZWxsZWRHRjctSSNtb0dGJDYuUSI9RidGNS9GOVEnbm9ybWFsRicvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zqbi1JI21uR0YkNiVRIjBGJ0Y1Rk5GNUZO">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRI2R4RicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRiM2Ji1GLzYmUSNkdEYnRjJGNUY4RjJGNUY4LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZFLyUpYmV2ZWxsZWRHRjctSSNtb0dGJDYuUSI9RidGNS9GOVEnbm9ybWFsRicvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zqbi1JI21uR0YkNiVRIjBGJ0Y1Rk5GNUZO</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3024" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"> and </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3026" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRI2R5RicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRiM2Ji1GLzYmUSNkdEYnRjJGNUY4RjJGNUY4LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZFLyUpYmV2ZWxsZWRHRjctSSNtb0dGJDYuUSI9RidGNS9GOVEnbm9ybWFsRicvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zqbi1JI21uR0YkNiVRIjBGJ0Y1Rk5GNUZO">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRI2R5RicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRiM2Ji1GLzYmUSNkdEYnRjJGNUY4RjJGNUY4LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZFLyUpYmV2ZWxsZWRHRjctSSNtb0dGJDYuUSI9RidGNS9GOVEnbm9ybWFsRicvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zqbi1JI21uR0YkNiVRIjBGJ0Y1Rk5GNUZO</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L2927" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">. Hence, we can solve for the critical points of this system by taking the right-hand side of each equation in turn and setting them equal to zero, as done so below:</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2883" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2915" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">critical_points := solve({rhs(sys[1])=0,rhs(sys[2])=0},{x(t),y(t)}): #Setting the right-hand sides of the system equal to zero and solving for x and y.
+
+(*Displaying calculated critical points in turn*)
+
+for i from 1 to 4 do
+eval([x(t),y(t)],critical_points[i]);
+end do;
+
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2936" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3028" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Hence, we see that we have the critical points </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3030" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYwLUkobWZlbmNlZEdGJDYlLUYjNictSSNtbkdGJDYlUSIwRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSIsRidGNEY3LyUmZmVuY2VHRjYvJSpzZXBhcmF0b3JHUSV0cnVlRicvJSlzdHJldGNoeUdGNi8lKnN5bW1ldHJpY0dGNi8lKGxhcmdlb3BHRjYvJS5tb3ZhYmxlbGltaXRzR0Y2LyUnYWNjZW50R0Y2LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRidGMEY0RjdGNEY3LUY7Ni5RIn5GJ0Y0RjdGPi9GQUY2RkNGRUZHRklGS0ZNL0ZRRk9GOkZTLUYsNiUtRiM2J0YwRjotRjE2JVEiMUYnRjRGN0Y0RjdGNEY3RjpGUy1GLDYlLUYjNidGZm5GOkYwRjRGN0Y0RjdGOkZTLUYsNiUtRiM2KS1GOzYuUSomdW1pbnVzMDtGJ0Y0RjdGPkZWRkNGRUZHRklGSy9GTlEsMC4yMjIyMjIyZW1GJy9GUUZlby1JJm1mcmFjR0YkNigtRjE2JVEiMkYnRjRGNy1GIzYmLUYxNiVRIjdGJ0Y0RjcvJSdpdGFsaWNHRkJGNC9GOFEnaXRhbGljRicvJS5saW5ldGhpY2tuZXNzR0Zobi8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZqcC8lKWJldmVsbGVkR0Y2RjpGYW8tRmhvNigtRjE2JVEiM0YnRjRGN0ZdcEZmcEZocEZbcUZdcUY0RjdGNEY3LUkjbWlHRiQ2I1EhRidGNEY3">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYwLUkobWZlbmNlZEdGJDYlLUYjNictSSNtbkdGJDYlUSIwRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSIsRidGNEY3LyUmZmVuY2VHRjYvJSpzZXBhcmF0b3JHUSV0cnVlRicvJSlzdHJldGNoeUdGNi8lKnN5bW1ldHJpY0dGNi8lKGxhcmdlb3BHRjYvJS5tb3ZhYmxlbGltaXRzR0Y2LyUnYWNjZW50R0Y2LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRidGMEY0RjdGNEY3LUY7Ni5RIn5GJ0Y0RjdGPi9GQUY2RkNGRUZHRklGS0ZNL0ZRRk9GOkZTLUYsNiUtRiM2J0YwRjotRjE2JVEiMUYnRjRGN0Y0RjdGNEY3RjpGUy1GLDYlLUYjNidGZm5GOkYwRjRGN0Y0RjdGOkZTLUYsNiUtRiM2KS1GOzYuUSomdW1pbnVzMDtGJ0Y0RjdGPkZWRkNGRUZHRklGSy9GTlEsMC4yMjIyMjIyZW1GJy9GUUZlby1JJm1mcmFjR0YkNigtRjE2JVEiMkYnRjRGNy1GIzYmLUYxNiVRIjdGJ0Y0RjcvJSdpdGFsaWNHRkJGNC9GOFEnaXRhbGljRicvJS5saW5ldGhpY2tuZXNzR0Zobi8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZqcC8lKWJldmVsbGVkR0Y2RjpGYW8tRmhvNigtRjE2JVEiM0YnRjRGN0ZdcEZmcEZocEZbcUZdcUY0RjdGNEY3LUkjbWlHRiQ2I1EhRidGNEY3</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L2931" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"> corresponding to our system.</Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">(b) </Text-field></Title><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2880" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L9571" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">To find the matrix governing the linearised system at each critical point, and then calculate corresponding eigenvalues and eigenvectors for that matrix, we first write the following procedure that may be reused for each critical points and later exercises. This procedure outputs the governing matrix, eigenvalues, and matrix of eigenvectors, in that order.
+</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L2937" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2938" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">linearise := proc(DE_system, critical_point)
+   local F,G,expansion1,expansion2,Matrix_11,Matrix_12,Matrix_21,Matrix_22,Matrix,EigenSolution:
+
+   F := subs(x(t)=x,y(t)=y,rhs(DE_system[1])): #Taking the right-hand side of the first of the defined system equations, and substituting x(t) with x and y(t) with y to allow for taylor expansion later.
+   G := subs(x(t)=x,y(t)=y,rhs(DE_system[2])): #Taking the right-hand side of the second of the defined system equations, and substituting x(t) with x and y(t) with y to allow for taylor expansion later.
+
+(*Linearising each row of the system by performing the Taylor expansion of the first equation up to the second term around the critical point.*)
+
+   expansion1:=mtaylor(F,[x=critical_point[1],y=critical_point[2]],2): 
+   expansion2:=mtaylor(G,[x=critical_point[1],y=critical_point[2]],2):
+
+(*Calculating the coefficients for the x and y terms corresponding to these Taylor expansions, to compute Jacobian Matrix elements*)
+
+   Matrix_11 := coeff(expansion1,x):
+   Matrix_12 := coeff(expansion1,y):
+   Matrix_21 := coeff(expansion2,x):
+   Matrix_22 := coeff(expansion2,y):
+
+(*Constructing the matrix governing the linearised system about the critical point*)
+
+   Matrix := &lt;Matrix_11,Matrix_12;Matrix_21,Matrix_22&gt;: #Writing calculated coefficients in matrix form.
+
+(*Calculating the eigenvalues and eigenvectors using in-built LinearAlgebra function*)
+
+   EigenSolution := LinearAlgebra[Eigenvectors](Matrix):
+
+return Matrix,EigenSolution; #Outputs governing matrix, eigenvalues, and matrix of corresponding eigenvectors.
+
+end proc:<Font style="Text">
+</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3032" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+Now after running the above procedure we can calculate the matrix governing the linearised system, the vector containing each of the eigenvalues and the corresponding matrix of eigenvectors for each critical point in turn. 
+
+<Font bold="true">For the critical point </Font></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3034" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" bold="true" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkobWZlbmNlZEdGJDYnLUYjNiktSSNtbkdGJDYnUSIwRicvJSVib2xkR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJWJvbGRGJy8lK2ZvbnR3ZWlnaHRHRjwtSSNtb0dGJDYwUSIsRidGNEY3RjpGPS8lJmZlbmNlR0Y5LyUqc2VwYXJhdG9yR0Y2LyUpc3RyZXRjaHlHRjkvJSpzeW1tZXRyaWNHRjkvJShsYXJnZW9wR0Y5LyUubW92YWJsZWxpbWl0c0dGOS8lJ2FjY2VudEdGOS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnRjBGNEY3RjpGPUY0RjdGOkY9LUkjbWlHRiQ2I1EhRidGNEY3RjpGPQ==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkobWZlbmNlZEdGJDYnLUYjNiktSSNtbkdGJDYnUSIwRicvJSVib2xkR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJWJvbGRGJy8lK2ZvbnR3ZWlnaHRHRjwtSSNtb0dGJDYwUSIsRidGNEY3RjpGPS8lJmZlbmNlR0Y5LyUqc2VwYXJhdG9yR0Y2LyUpc3RyZXRjaHlHRjkvJSpzeW1tZXRyaWNHRjkvJShsYXJnZW9wR0Y5LyUubW92YWJsZWxpbWl0c0dGOS8lJ2FjY2VudEdGOS8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHUSwwLjMzMzMzMzNlbUYnRjBGNEY3RjpGPUY0RjdGOkY9LUkjbWlHRiQ2I1EhRidGNEY3RjpGPQ==</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L2952" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" bold="true" layout="Normal"><Font bold="true">:</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5612" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+We run the procedure with this point (displayed for this point to illustrate the format of the output).
+</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5531" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5609" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">J0 := linearise(sys,[0,0]); #Linearising around critical point and calculating eigenvalues and corresponding eigenvectors.
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5610" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L10067" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">We can choose the first output of our linearise procedure to find the governing matrix:</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2964" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L2963" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">J0[1]; #Selecting the governing matrix for output.
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2983" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+To find the first eigenvalue, we select the second output of the procedure, and then its first element. To find the corresponding eigenvector, we select the third output of the procedure, and then its first column:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5532" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">J0[2][1]; #Choosing first eigenvalue
+J0[3][1..2,1]; #Choosing column corresponding to this eigenvalue</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3334" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5534" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">To find the second eigenvalue, we select the second output of the procedure, and then its second element. To find the corresponding eigenvector, we select the third output of the procedure, and then its first column:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5535" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">J0[2][2]; #Choosing second eigenvalue
+J0[3][1..2,2]; #Choosing column corresponding to this eigenvalue</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5605" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L2985" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">As (0,0) has repeated real negative eigenvalues with two independent eigenvectors, hence it is an (asymptotically stable) nodal sink or spiral sink. Noting that the eigenvectors can form a matrix that is proportional to the identity matrix, it follows that this is an (asymptotically stable) node.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3038" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+<Font bold="true">For the critical point</Font></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L2881" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" bold="true" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUkjbW9HRiQ2MFEifkYnLyUlYm9sZEdRJXRydWVGJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSVib2xkRicvJStmb250d2VpZ2h0R0Y3LyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSi1JKG1mZW5jZWRHRiQ2Jy1GIzYpLUkjbW5HRiQ2J1EiMEYnRi9GMkY1RjgtRiw2MFEiLEYnRi9GMkY1RjhGOi9GPUYxRj5GQEZCRkRGRkZIL0ZMUSwwLjMzMzMzMzNlbUYnLUZTNidRIjFGJ0YvRjJGNUY4Ri9GMkY1RjhGL0YyRjVGOC1GLDYwUSI6RidGL0YyRjVGOEY6RjxGPkZARkJGREZGL0ZJUSwwLjI3Nzc3NzhlbUYnL0ZMRl1vLUknbXNwYWNlR0YkNiYvJSdoZWlnaHRHUSYwLjBleEYnLyUmd2lkdGhHRkovJSZkZXB0aEdGZG8vJSpsaW5lYnJlYWtHUSVhdXRvRictSSNtaUdGJDYjUSFGJ0YvRjJGNUY4">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUkjbW9HRiQ2MFEifkYnLyUlYm9sZEdRJXRydWVGJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSVib2xkRicvJStmb250d2VpZ2h0R0Y3LyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSi1JKG1mZW5jZWRHRiQ2Jy1GIzYpLUkjbW5HRiQ2J1EiMEYnRi9GMkY1RjgtRiw2MFEiLEYnRi9GMkY1RjhGOi9GPUYxRj5GQEZCRkRGRkZIL0ZMUSwwLjMzMzMzMzNlbUYnLUZTNidRIjFGJ0YvRjJGNUY4Ri9GMkY1RjhGL0YyRjVGOC1GLDYwUSI6RidGL0YyRjVGOEY6RjxGPkZARkJGREZGL0ZJUSwwLjI3Nzc3NzhlbUYnL0ZMRl1vLUknbXNwYWNlR0YkNiYvJSdoZWlnaHRHUSYwLjBleEYnLyUmd2lkdGhHRkovJSZkZXB0aEdGZG8vJSpsaW5lYnJlYWtHUSVhdXRvRictSSNtaUdGJDYjUSFGJ0YvRjJGNUY4</Equation><Font bold="false">
+</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5619" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">We run the procedure with this point.
+</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5625" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5614" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">J1 := linearise(sys,[0,1]): #Linearising around critical point and calculating eigenvalues and corresponding eigenvectors.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5622" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5617" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">We choose the first output of our procedure to find the governing matrix:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5616" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">J1[1]; #Selecting the governing matrix for output.
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5618" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+To find the first eigenvalue, we select the second output of the procedure, and then its first element. To find the corresponding eigenvector, we select the third output of the procedure, and then its first column:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5624" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">J1[2][1]; #Choosing first eigenvalue
+J1[3][1..2,1]; #Choosing column corresponding to this eigenvalue</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5623" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5621" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">To find the second eigenvalue, we select the second output of the procedure, and then its second element. To find the corresponding eigenvector, we select the third output of the procedure, and then its first column:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5620" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">J1[2][2]; #Choosing second eigenvalue
+J1[3][1..2,2]; #Choosing column corresponding to this eigenvalue</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3048" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+Note as these eigenvalues are real and of opposite signs, (0,1) is a saddle point so unstable.
+
+<Font bold="true">For the critical point</Font></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3050" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" bold="true" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbW9HRiQ2MFEifkYnLyUlYm9sZEdRJXRydWVGJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSVib2xkRicvJStmb250d2VpZ2h0R0Y3LyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSi1JKG1mZW5jZWRHRiQ2Jy1GIzYpLUkjbW5HRiQ2J1EiMUYnRi9GMkY1RjgtRiw2MFEiLEYnRi9GMkY1RjhGOi9GPUYxRj5GQEZCRkRGRkZIL0ZMUSwwLjMzMzMzMzNlbUYnLUZTNidRIjBGJ0YvRjJGNUY4Ri9GMkY1RjhGL0YyRjVGOC1JI21pR0YkNiNRIUYnRi9GMkY1Rjg=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbW9HRiQ2MFEifkYnLyUlYm9sZEdRJXRydWVGJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSVib2xkRicvJStmb250d2VpZ2h0R0Y3LyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSi1JKG1mZW5jZWRHRiQ2Jy1GIzYpLUkjbW5HRiQ2J1EiMUYnRi9GMkY1RjgtRiw2MFEiLEYnRi9GMkY1RjhGOi9GPUYxRj5GQEZCRkRGRkZIL0ZMUSwwLjMzMzMzMzNlbUYnLUZTNidRIjBGJ0YvRjJGNUY4Ri9GMkY1RjhGL0YyRjVGOC1JI21pR0YkNiNRIUYnRi9GMkY1Rjg=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3437" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" bold="true" layout="Normal"><Font bold="true">:</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2968" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5644" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">We run the procedure with this point.
+</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5650" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5639" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">J2 := linearise(sys,[1,0]): #Linearising around critical point and calculating eigenvalues and corresponding eigenvectors.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5647" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5642" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">We choose the first output of our linearise procedure to find the governing matrix:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5641" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">J2[1]; #Selecting the governing matrix for output.
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5643" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+To find the first eigenvalue, we select the second output of the procedure, and then its first element. To find the corresponding eigenvector, we select the third output of the procedure, and then its first column:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5649" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">J2[2][1]; #Choosing first eigenvalue
+J2[3][1..2,1]; #Choosing column corresponding to this eigenvalue</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5648" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5646" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">To find the second eigenvalue, we select the second output of the procedure, and then its second element. To find the corresponding eigenvector, we select the third output of the procedure, and then its first column:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5645" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">J2[2][2]; #Choosing second eigenvalue
+J2[3][1..2,2]; #Choosing column corresponding to this eigenvalue</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3060" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+
+Note as these eigenvalues are real and of opposite signs, (1,0) is a saddle point.
+
+<Font bold="true">For the critical point </Font></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3062" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" bold="true" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUklbXJvd0dGJDYrLUkjbW9HRiQ2MFEqJnVtaW51czA7RicvJSVib2xkR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJWJvbGRGJy8lK2ZvbnR3ZWlnaHRHRjovJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZNLUkmbWZyYWNHRiQ2KC1JI21uR0YkNidRIjJGJ0YyRjVGOEY7LUYsNictRlQ2J1EiN0YnRjJGNUY4RjtGMkY1RjhGOy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGW28vJSliZXZlbGxlZEdGNy1GLzYwUSIsRidGMkY1RjhGO0Y9L0ZARjRGQUZDRkVGR0ZJL0ZMUSYwLjBlbUYnL0ZPUSwwLjMzMzMzMzNlbUYnRi4tRlE2KC1GVDYnUSIzRidGMkY1RjhGO0ZXRmZuRmluRlxvRl5vRjJGNUY4RjtGMkY1RjhGOw==">LUkobWZlbmNlZEc2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUklbXJvd0dGJDYrLUkjbW9HRiQ2MFEqJnVtaW51czA7RicvJSVib2xkR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJWJvbGRGJy8lK2ZvbnR3ZWlnaHRHRjovJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR0ZNLUkmbWZyYWNHRiQ2KC1JI21uR0YkNidRIjJGJ0YyRjVGOEY7LUYsNictRlQ2J1EiN0YnRjJGNUY4RjtGMkY1RjhGOy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGW28vJSliZXZlbGxlZEdGNy1GLzYwUSIsRidGMkY1RjhGO0Y9L0ZARjRGQUZDRkVGR0ZJL0ZMUSYwLjBlbUYnL0ZPUSwwLjMzMzMzMzNlbUYnRi4tRlE2KC1GVDYnUSIzRidGMkY1RjhGO0ZXRmZuRmluRlxvRl5vRjJGNUY4RjtGMkY1RjhGOw==</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3438" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font bold="true"> :</Font>
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5632" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">We run the procedure with this point.
+</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5638" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5627" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">J3 := linearise(sys,[-2/7,-3/7]): #Linearising around critical point and calculating eigenvalues and corresponding eigenvectors.
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5635" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5630" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">We choose the first output of our linearise procedure to find the governing matrix:</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5629" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">J3[1]; #Selecting the governing matrix for output.
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5631" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+To find the first eigenvalue, we select the second output of the procedure, and then its first element. To find the corresponding eigenvector, we select the third output of the procedure, and then its first column:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5637" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">J3[2][1]; #Choosing first eigenvalue
+J3[3][1..2,1]; #Choosing column corresponding to this eigenvalue</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5636" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5634" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">To find the second eigenvalue, we select the second output of the procedure, and then its second element. To find the corresponding eigenvector, we select the third output of the procedure, and then its first column:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5633" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">J3[2][2]; #Choosing second eigenvalue
+J3[3][1..2,2]; #Choosing column corresponding to this eigenvalue</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5628" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+Note as these eigenvalues are real and of opposite signs, <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkobWZlbmNlZEdGJDYlLUYjNiktSSNtb0dGJDYuUSomdW1pbnVzMDtGJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR0Y2LyUqc2VwYXJhdG9yR0Y2LyUpc3RyZXRjaHlHRjYvJSpzeW1tZXRyaWNHRjYvJShsYXJnZW9wR0Y2LyUubW92YWJsZWxpbWl0c0dGNi8lJ2FjY2VudEdGNi8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRkotSSZtZnJhY0dGJDYoLUkjbW5HRiQ2JVEiMkYnRjRGNy1GIzYmLUZRNiVRIjdGJ0Y0RjcvJSdpdGFsaWNHUSV0cnVlRidGNC9GOFEnaXRhbGljRicvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRl1vLyUpYmV2ZWxsZWRHRjYtRjE2LlEiLEYnRjRGN0Y6L0Y9RmVuRj5GQEZCRkRGRi9GSVEmMC4wZW1GJy9GTFEsMC4zMzMzMzMzZW1GJ0YwLUZONigtRlE2JVEiM0YnRjRGN0ZURmhuRltvRl5vRmBvRjRGN0Y0RjdGNEY3">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkobWZlbmNlZEdGJDYlLUYjNiktSSNtb0dGJDYuUSomdW1pbnVzMDtGJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy8lJmZlbmNlR0Y2LyUqc2VwYXJhdG9yR0Y2LyUpc3RyZXRjaHlHRjYvJSpzeW1tZXRyaWNHRjYvJShsYXJnZW9wR0Y2LyUubW92YWJsZWxpbWl0c0dGNi8lJ2FjY2VudEdGNi8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRkotSSZtZnJhY0dGJDYoLUkjbW5HRiQ2JVEiMkYnRjRGNy1GIzYmLUZRNiVRIjdGJ0Y0RjcvJSdpdGFsaWNHUSV0cnVlRidGNC9GOFEnaXRhbGljRicvJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRl1vLyUpYmV2ZWxsZWRHRjYtRjE2LlEiLEYnRjRGN0Y6L0Y9RmVuRj5GQEZCRkRGRi9GSVEmMC4wZW1GJy9GTFEsMC4zMzMzMzMzZW1GJ0YwLUZONigtRlE2JVEiM0YnRjRGN0ZURmhuRltvRl5vRmBvRjRGN0Y0RjdGNEY3</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L2947" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3332" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3331" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">  is a saddle point.
+</Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">(c)</Text-field></Title><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3080" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Now consider the  function </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3340" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUkjbWlHRiQ2JlEiVkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNictRiw2JlEieEYnRi9GMkY1LUkjbW9HRiQ2LlEiLEYnRjIvRjZRJ25vcm1hbEYnLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2JlEieUYnRi9GMkY1RjJGREYyRkQtRkE2LlEiPUYnRjJGREZGL0ZJRjRGSkZMRk5GUEZSL0ZVUSwwLjI3Nzc3NzhlbUYnL0ZYRlxvLUkmbWZyYWNHRiQ2KC1JJW1zdXBHRiQ2JUY9LUYjNiYtSSNtbkdGJDYlUSIyRidGMkZERi9GMkY1LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Zkby8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGYnAvJSliZXZlbGxlZEdGNC1GQTYuUSIrRidGMkZERkZGam5GSkZMRk5GUEZSL0ZVUSwwLjIyMjIyMjJlbUYnL0ZYRltxLUZfbzYoLUZibzYlRlpGZG9Gam9GZG9GXXBGYHBGY3BGZXAtRiw2I1EhRidGMkZE">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUkjbWlHRiQ2JlEiVkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNictRiw2JlEieEYnRi9GMkY1LUkjbW9HRiQ2LlEiLEYnRjIvRjZRJ25vcm1hbEYnLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2JlEieUYnRi9GMkY1RjJGREYyRkQtRkE2LlEiPUYnRjJGREZGL0ZJRjRGSkZMRk5GUEZSL0ZVUSwwLjI3Nzc3NzhlbUYnL0ZYRlxvLUkmbWZyYWNHRiQ2KC1JJW1zdXBHRiQ2JUY9LUYjNiYtSSNtbkdGJDYlUSIyRidGMkZERi9GMkY1LyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Zkby8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGYnAvJSliZXZlbGxlZEdGNC1GQTYuUSIrRidGMkZERkZGam5GSkZMRk5GUEZSL0ZVUSwwLjIyMjIyMjJlbUYnL0ZYRltxLUZfbzYoLUZibzYlRlpGZG9Gam9GZG9GXXBGYHBGY3BGZXAtRiw2I1EhRidGMkZE</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L2885" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"> where x(t) and y(t) are real functions of t.
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3342" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Observe that </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3344" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEiVkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNictRiw2JlEieEYnRi9GMkY1LUkjbW9HRiQ2LlEiLEYnRjIvRjZRJ25vcm1hbEYnLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2JlEieUYnRi9GMkY1RjJGREYyRkRGMkZE">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEiVkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNictRiw2JlEieEYnRi9GMkY1LUkjbW9HRiQ2LlEiLEYnRjIvRjZRJ25vcm1hbEYnLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2JlEieUYnRi9GMkY1RjJGREYyRkRGMkZE</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3346" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"> is a composition of continuous functions and therefore continuous, and that it clearly has continuous first partial derivatives. Further note that </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3348" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JlEiVkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNictSSNtbkdGJDYlUSIwRidGMi9GNlEnbm9ybWFsRictSSNtb0dGJDYuUSIsRidGMkZBLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRidGPUYyRkFGMkZBLUZENi5RIj1GJ0YyRkFGRy9GSkY0RktGTUZPRlFGUy9GVlEsMC4yNzc3Nzc4ZW1GJy9GWUZqbkY9RjJGQQ==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JlEiVkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNictSSNtbkdGJDYlUSIwRidGMi9GNlEnbm9ybWFsRictSSNtb0dGJDYuUSIsRidGMkZBLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRidGPUYyRkFGMkZBLUZENi5RIj1GJ0YyRkFGRy9GSkY0RktGTUZPRlFGUy9GVlEsMC4yNzc3Nzc4ZW1GJy9GWUZqbkY9RjJGQQ==</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3350" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"> and for any pair </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3352" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JlEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LlEiLEYnRjIvRjZRJ25vcm1hbEYnLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2JlEieUYnRi9GMkY1LUY5Ni5RKiZFbGVtZW50O0YnRjJGPEY+L0ZBRjRGQkZERkZGSEZKL0ZNUSwwLjI3Nzc3NzhlbUYnL0ZQRlotRiw2JlEoJiM4NDc3O0YnL0YwRjRGMkY8RjJGPA==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2JlEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkjbW9HRiQ2LlEiLEYnRjIvRjZRJ25vcm1hbEYnLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2JlEieUYnRi9GMkY1LUY5Ni5RKiZFbGVtZW50O0YnRjJGPEY+L0ZBRjRGQkZERkZGSEZKL0ZNUSwwLjI3Nzc3NzhlbUYnL0ZQRlotRiw2JlEoJiM4NDc3O0YnL0YwRjRGMkY8RjJGPA==</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3354" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"> where at least one of </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3356" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JlEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnRjIvRjZRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JlEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnRjIvRjZRJ25vcm1hbEYn</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3358" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"> or </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3360" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JlEieUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnRjIvRjZRJ25vcm1hbEYn">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2JlEieUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnRjIvRjZRJ25vcm1hbEYn</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3362" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"> is non-zero, we have </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3364" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JlEiVkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNictRiw2JlEieEYnRi9GMkY1LUkjbW9HRiQ2LlEiLEYnRjIvRjZRJ25vcm1hbEYnLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2JlEieUYnRi9GMkY1RjJGREYyRkQtRkE2LlEiPkYnRjJGREZGL0ZJRjRGSkZMRk5GUEZSL0ZVUSwwLjI3Nzc3NzhlbUYnL0ZYRlxvLUkjbW5HRiQ2JVEiMEYnRjJGREYyRkQ=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JlEiVkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNictRiw2JlEieEYnRi9GMkY1LUkjbW9HRiQ2LlEiLEYnRjIvRjZRJ25vcm1hbEYnLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2JlEieUYnRi9GMkY1RjJGREYyRkQtRkE2LlEiPkYnRjJGREZGL0ZJRjRGSkZMRk5GUEZSL0ZVUSwwLjI3Nzc3NzhlbUYnL0ZYRlxvLUkjbW5HRiQ2JVEiMEYnRjJGREYyRkQ=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3366" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">. Hence this function is positive definite on the domain. These facts are illustrated below by plotting </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3368" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEiVkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNictRiw2JlEieEYnRi9GMkY1LUkjbW9HRiQ2LlEiLEYnRjIvRjZRJ25vcm1hbEYnLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2JlEieUYnRi9GMkY1RjJGREYyRkRGMkZE">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEiVkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNictRiw2JlEieEYnRi9GMkY1LUkjbW9HRiQ2LlEiLEYnRjIvRjZRJ25vcm1hbEYnLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2JlEieUYnRi9GMkY1RjJGREYyRkRGMkZE</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3370" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"> together with the plane </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3372" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JlEiVkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNictRiw2JlEieEYnRi9GMkY1LUkjbW9HRiQ2LlEiLEYnRjIvRjZRJ25vcm1hbEYnLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2JlEieUYnRi9GMkY1RjJGREYyRkQtRkE2LlEiPUYnRjJGREZGL0ZJRjRGSkZMRk5GUEZSL0ZVUSwwLjI3Nzc3NzhlbUYnL0ZYRlxvLUkjbW5HRiQ2JVEiMEYnRjJGREYyRkQ=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JlEiVkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNictRiw2JlEieEYnRi9GMkY1LUkjbW9HRiQ2LlEiLEYnRjIvRjZRJ25vcm1hbEYnLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictRiw2JlEieUYnRi9GMkY1RjJGREYyRkQtRkE2LlEiPUYnRjJGREZGL0ZJRjRGSkZMRk5GUEZSL0ZVUSwwLjI3Nzc3NzhlbUYnL0ZYRlxvLUkjbW5HRiQ2JVEiMEYnRjJGREYyRkQ=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3082" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3272" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L3271" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):
+V := x^2/2+y^2/2:
+plot3d([V,0],x=-500..500,y=-500..500,title=&quot;Plot of function V(x,y)&quot;,color=[&quot;green&quot;,&quot;blue&quot;]); #Plotting the given Lyapunov function
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3380" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+
+Note that </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3382" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYsLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRI2RWRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRiM2Ji1GLzYmUSNkdEYnRjJGNUY4RjJGNUY4LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZFLyUpYmV2ZWxsZWRHRjctSSNtb0dGJDYuUSI9RidGNS9GOVEnbm9ybWFsRicvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zqbi1GLDYoLUYjNiYtRks2LlErJlBhcnRpYWxEO0YnRjVGTkZQRlJGVEZWRlhGWkZmbi9GaW5RJjAuMGVtRicvRlxvRmVvLUYvNiZRIlZGJ0YyRjVGOEY1Rk4tRiM2J0Zhby1GSzYuUSJ+RidGNUZORlBGUkZURlZGWEZaRmZuRmRvRmZvLUYvNiZRInhGJ0YyRjVGOEY1Rk5GQEZDRkZGSC1GLDYoLUYjNiUtRi82JlEjZHhGJ0YyRjVGOEY1Rk5GO0ZARkNGRkZILUZLNi5RIitGJ0Y1Rk5GUEZSRlRGVkZYRlpGZm4vRmluUSwwLjIyMjIyMjJlbUYnL0Zcb0ZdcS1GLDYoRl9vLUYjNidGYW9GXHAtRi82JlEieUYnRjJGNUY4RjVGTkZARkNGRkZILUYsNigtRiM2JkZccC1GLzYmUSNkeUYnRjJGNUY4RjVGTkY7RkBGQ0ZGRkhGXHBGNUZO">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYsLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRI2RWRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRiM2Ji1GLzYmUSNkdEYnRjJGNUY4RjJGNUY4LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZFLyUpYmV2ZWxsZWRHRjctSSNtb0dGJDYuUSI9RidGNS9GOVEnbm9ybWFsRicvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zqbi1GLDYoLUYjNiYtRks2LlErJlBhcnRpYWxEO0YnRjVGTkZQRlJGVEZWRlhGWkZmbi9GaW5RJjAuMGVtRicvRlxvRmVvLUYvNiZRIlZGJ0YyRjVGOEY1Rk4tRiM2J0Zhby1GSzYuUSJ+RidGNUZORlBGUkZURlZGWEZaRmZuRmRvRmZvLUYvNiZRInhGJ0YyRjVGOEY1Rk5GQEZDRkZGSC1GLDYoLUYjNiUtRi82JlEjZHhGJ0YyRjVGOEY1Rk5GO0ZARkNGRkZILUZLNi5RIitGJ0Y1Rk5GUEZSRlRGVkZYRlpGZm4vRmluUSwwLjIyMjIyMjJlbUYnL0Zcb0ZdcS1GLDYoRl9vLUYjNidGYW9GXHAtRi82JlEieUYnRjJGNUY4RjVGTkZARkNGRkZILUYsNigtRiM2JkZccC1GLzYmUSNkeUYnRjJGNUY4RjVGTkY7RkBGQ0ZGRkhGXHBGNUZO</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3439" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">by chain rule.
+
+We can solve this by calculating the partial derivatives and substituting in the respective differential equations from the given system as follows:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L3083" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">V2 := subs([x(t)=x,y(t)=y], V):
+partialx := diff(V2,x): #Taking partial derivative of V with respect to x
+partialy := diff(V2,y): #Taking partial derivative of V with respect to y
+DiffV := partialx*rhs(subs([x(t)=x,y(t)=y],sys[1]))+y(t)*rhs(subs([x(t)=x,y(t)=y],sys[2]));</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3384" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+Now, we wish to find a region around the origin for which this derivative is strictly less than zero, if it exists.
+
+To do so we plot the conour plot of the derivative function, with the blue regions being regions for which the derivative function is less than zero, the darker blue being regions less than -1, and the white regions those that are more than zero.
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L7788" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">contourplot(DiffV,x=-1..1,y=-1..1,contours=[-1,0],grid=[100,100],filledregions=true,colouring=[&quot;blue&quot;,&quot;white&quot;]);</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="false" inline-output="false" labelreference="L3400" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+We can see from the contour plot that there is a domain about the origin for which <Equation executable="false" style="2D Math" input-equation="" display="LUkmbWZyYWNHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2KC1JI21pR0YkNiZRI2RWRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSVtcm93R0YkNiUtRiw2JlEjZHRGJ0YvRjJGNUYyL0Y2USdub3JtYWxGJy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGRS8lKWJldmVsbGVkR0Y0">LUkmbWZyYWNHNiMvSSttb2R1bGVuYW1lRzYiSSxUeXBlc2V0dGluZ0dJKF9zeXNsaWJHRic2KC1JI21pR0YkNiZRI2RWRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSVtcm93R0YkNiUtRiw2JlEjZHRGJ0YvRjJGNUYyL0Y2USdub3JtYWxGJy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGRS8lKWJldmVsbGVkR0Y0</Equation> is negative definite on a domain (that fits within the blue regions), for example the open ball of radius 0.1 about the origin. Hence as it has been demonstrated that V(x,y) is positive definite, satisfies <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JlEiVkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNictSSNtbkdGJDYlUSIwRidGMi9GNlEnbm9ybWFsRictSSNtb0dGJDYuUSIsRidGMkZBLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRidGPUYyRkFGMkZBLUZENi5RIj1GJ0YyRkFGRy9GSkY0RktGTUZPRlFGUy9GVlEsMC4yNzc3Nzc4ZW1GJy9GWUZqbkY9RjJGQQ==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JlEiVkYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNictSSNtbkdGJDYlUSIwRidGMi9GNlEnbm9ybWFsRictSSNtb0dGJDYuUSIsRidGMkZBLyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRidGPUYyRkFGMkZBLUZENi5RIj1GJ0YyRkFGRy9GSkY0RktGTUZPRlFGUy9GVlEsMC4yNzc3Nzc4ZW1GJy9GWUZqbkY9RjJGQQ==</Equation>, is continuous and has continuous first partial derivatives, and as <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRI2RWRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRiM2Ji1GLzYmUSNkdEYnRjJGNUY4RjJGNUY4LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZFLyUpYmV2ZWxsZWRHRjctSSNtb0dGJDYuUSJ+RidGNS9GOVEnbm9ybWFsRicvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZqbkY1Rk4=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRI2RWRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRiM2Ji1GLzYmUSNkdEYnRjJGNUY4RjJGNUY4LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZFLyUpYmV2ZWxsZWRHRjctSSNtb0dGJDYuUSJ+RidGNS9GOVEnbm9ybWFsRicvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR0ZqbkY1Rk4=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3402" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">is negative definite on a domain of the xy-plane that contains the origin, it follows that </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3404" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2I1EhRictRiM2Ki1GLDYmUSJWRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiUtRiM2Jy1GLDYmUSJ4RidGNEY3RjotSSNtb0dGJDYuUSIsRidGNy9GO1Enbm9ybWFsRicvJSZmZW5jZUdGOS8lKnNlcGFyYXRvckdGNi8lKXN0cmV0Y2h5R0Y5LyUqc3ltbWV0cmljR0Y5LyUobGFyZ2VvcEdGOS8lLm1vdmFibGVsaW1pdHNHRjkvJSdhY2NlbnRHRjkvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYmUSJ5RidGNEY3RjpGN0ZJRjdGSS1GRjYuUSI9RidGN0ZJRksvRk5GOUZPRlFGU0ZVRlcvRlpRLDAuMjc3Nzc3OGVtRicvRmduRmFvLUkmbWZyYWNHRiQ2KC1JJW1zdXBHRiQ2JUZCLUYjNiUtSSNtbkdGJDYlUSIyRidGN0ZJRjdGSS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGaW8vJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmdwLyUpYmV2ZWxsZWRHRjktRkY2LlEiK0YnRjdGSUZLRl9vRk9GUUZTRlVGVy9GWlEsMC4yMjIyMjIyZW1GJy9GZ25GYHEtRmRvNigtRmdvNiVGaW5GaW9GX3BGaW9GYnBGZXBGaHBGanBGN0ZJRitGN0ZJ">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2I1EhRictRiM2Ki1GLDYmUSJWRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSShtZmVuY2VkR0YkNiUtRiM2Jy1GLDYmUSJ4RidGNEY3RjotSSNtb0dGJDYuUSIsRidGNy9GO1Enbm9ybWFsRicvJSZmZW5jZUdGOS8lKnNlcGFyYXRvckdGNi8lKXN0cmV0Y2h5R0Y5LyUqc3ltbWV0cmljR0Y5LyUobGFyZ2VvcEdGOS8lLm1vdmFibGVsaW1pdHNHRjkvJSdhY2NlbnRHRjkvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GLDYmUSJ5RidGNEY3RjpGN0ZJRjdGSS1GRjYuUSI9RidGN0ZJRksvRk5GOUZPRlFGU0ZVRlcvRlpRLDAuMjc3Nzc3OGVtRicvRmduRmFvLUkmbWZyYWNHRiQ2KC1JJW1zdXBHRiQ2JUZCLUYjNiUtSSNtbkdGJDYlUSIyRidGN0ZJRjdGSS8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGaW8vJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRmdwLyUpYmV2ZWxsZWRHRjktRkY2LlEiK0YnRjdGSUZLRl9vRk9GUUZTRlVGVy9GWlEsMC4yMjIyMjIyZW1GJy9GZ25GYHEtRmRvNigtRmdvNiVGaW5GaW9GX3BGaW9GYnBGZXBGaHBGanBGN0ZJRitGN0ZJ</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3267" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">satisfies the definition of a Lyapunov function.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3268" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">(d)</Text-field></Title><Presentation-Block>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L1282" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3406" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">It follows by Lyapunov's Second Theorem that as we had a Lyapunov function - V(x,y) - that was positive definite and such that</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3412" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRI2RWRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRiM2JS1GLzYmUSNkdEYnRjJGNUY4RjUvRjlRJ25vcm1hbEYnLyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZHLyUpYmV2ZWxsZWRHRjctSSNtb0dGJDYuUSJ+RidGNUZALyUmZmVuY2VHRjcvJSpzZXBhcmF0b3JHRjcvJSlzdHJldGNoeUdGNy8lKnN5bW1ldHJpY0dGNy8lKGxhcmdlb3BHRjcvJS5tb3ZhYmxlbGltaXRzR0Y3LyUnYWNjZW50R0Y3LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGam5GNUZA">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRI2RWRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRiM2JS1GLzYmUSNkdEYnRjJGNUY4RjUvRjlRJ25vcm1hbEYnLyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZHLyUpYmV2ZWxsZWRHRjctSSNtb0dGJDYuUSJ+RidGNUZALyUmZmVuY2VHRjcvJSpzZXBhcmF0b3JHRjcvJSlzdHJldGNoeUdGNy8lKnN5bW1ldHJpY0dGNy8lKGxhcmdlb3BHRjcvJS5tb3ZhYmxlbGltaXRzR0Y3LyUnYWNjZW50R0Y3LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGam5GNUZA</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L2888" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">was negative definite in a domain containing the origin, the origin is an asymptotically stable critical point.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2887" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section>
+</Section><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L71" drawlabel="true">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Exercise 2</Text-field></Title><Text-field style="Text" layout="Normal"></Text-field>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">(a)  </Text-field></Title><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2890" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2892" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Consider the system <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRI2R4RicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRiM2Ji1GLzYmUSNkdEYnRjJGNUY4RjJGNUY4LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZFLyUpYmV2ZWxsZWRHRjctSSNtb0dGJDYuUSI9RidGNS9GOVEnbm9ybWFsRicvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zqbi1GLzYmUSJ5RidGMkY1RjhGNUZO">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRI2R4RicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRiM2Ji1GLzYmUSNkdEYnRjJGNUY4RjJGNUY4LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZFLyUpYmV2ZWxsZWRHRjctSSNtb0dGJDYuUSI9RidGNS9GOVEnbm9ybWFsRicvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zqbi1GLzYmUSJ5RidGMkY1RjhGNUZO</Equation> and <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRI2R5RicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRiM2Ji1GLzYmUSNkdEYnRjJGNUY4RjJGNUY4LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZFLyUpYmV2ZWxsZWRHRjctSSNtb0dGJDYuUSI9RidGNS9GOVEnbm9ybWFsRicvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zqbi1GSzYuUSomdW1pbnVzMDtGJ0Y1Rk5GUEZSRlRGVkZYRlpGZm4vRmluUSwwLjIyMjIyMjJlbUYnL0Zcb0Zhby1GLzYmUSJ4RidGMkY1RjgtRks2LlEiK0YnRjVGTkZQRlJGVEZWRlhGWkZmbkZgb0Ziby1GLzYmUScmIzk0OTtGJy9GM0Y3RjVGTi1JKG1mZW5jZWRHRiQ2JS1GIzYnLUYvNiZRInlGJ0YyRjVGOC1GSzYuUSgmbWludXM7RidGNUZORlBGUkZURlZGWEZaRmZuRmBvRmJvLUYsNigtSSVtc3VwR0YkNiVGYnAtRiM2Ji1JI21uR0YkNiVRIjNGJ0Y1Rk5GMkY1RjgvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRl1xRkBGQ0ZGRkhGNUZORjVGTkY1Rk4=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRI2R5RicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictRiM2Ji1GLzYmUSNkdEYnRjJGNUY4RjJGNUY4LyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0ZFLyUpYmV2ZWxsZWRHRjctSSNtb0dGJDYuUSI9RidGNS9GOVEnbm9ybWFsRicvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNy8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0Zqbi1GSzYuUSomdW1pbnVzMDtGJ0Y1Rk5GUEZSRlRGVkZYRlpGZm4vRmluUSwwLjIyMjIyMjJlbUYnL0Zcb0Zhby1GLzYmUSJ4RidGMkY1RjgtRks2LlEiK0YnRjVGTkZQRlJGVEZWRlhGWkZmbkZgb0Ziby1GLzYmUScmIzk0OTtGJy9GM0Y3RjVGTi1JKG1mZW5jZWRHRiQ2JS1GIzYnLUYvNiZRInlGJ0YyRjVGOC1GSzYuUSgmbWludXM7RidGNUZORlBGUkZURlZGWEZaRmZuRmBvRmJvLUYsNigtSSVtc3VwR0YkNiVGYnAtRiM2Ji1JI21uR0YkNiVRIjNGJ0Y1Rk5GMkY1RjgvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRl1xRkBGQ0ZGRkhGNUZORjVGTkY1Rk4=</Equation> where <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JlEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiUtRiw2JlEidEYnRi9GMkY1RjIvRjZRJ25vcm1hbEYnRjJGQC1GLDYjUSFGJ0YyRkA=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JlEieEYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiUtRiw2JlEidEYnRi9GMkY1RjIvRjZRJ25vcm1hbEYnRjJGQC1GLDYjUSFGJ0YyRkA=</Equation> and <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEieUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiUtRiw2JlEidEYnRi9GMkY1RjIvRjZRJ25vcm1hbEYnRjJGQEYyRkA=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JlEieUYnLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ2l0YWxpY0YnLUkobWZlbmNlZEdGJDYlLUYjNiUtRiw2JlEidEYnRi9GMkY1RjIvRjZRJ25vcm1hbEYnRjJGQEYyRkA=</Equation>are real functions of t.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3416" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3417" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">We enter this system and reuse our procedure from Exercise 1 to find the matrix governing the linearised system about the origin, and in order to find the eigenvalues and eigenvectors of the system linearised about the origin. Noting that we are interested in the matrix governing the linearised system, we select only the second and third elements of the output.
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L3420" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sys2 := {diff(x(t),t)=y(t),diff(y(t),t)=-x(t)+epsilon*(y(t)-(y(t)^3)/3)}:
+WNO := linearise(sys2,[0,0]):
+EigVals := WNO[2]; #Outputting eigenvalues
+EigVecs := WNO[3]; #Outputting matrix of eigenvectors.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3425" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3426" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+<Font encoding="UTF-8">As before, by recalling that each column of the matrix corresponds to the eigenvector in each row, we can extract the corresponding pairs of eigenvalues and eigenvectors for a given \316\265:
+</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5673" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5672" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5671" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5676" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5674" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5675" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">EigVals[1]; #Extracting first eigenvalue
+EigVecs[1..2,1]; #Extracting first eigenvector
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L6845" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+and
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5677" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">EigVals[2]; #Extracting second eigenvalue
+EigVecs[1..2,2]; #Extracting second eigenvector
+</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L6846" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+Observe that for </Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3427" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3475" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3477" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JlEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSomRWxlbWVudDtGJ0YyRjQvJSZmZW5jZUdGMS8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0YxLyUqc3ltbWV0cmljR0YxLyUobGFyZ2VvcEdGMS8lLm1vdmFibGVsaW1pdHNHRjEvJSdhY2NlbnRHRjEvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZLLUkobWZlbmNlZEdGJDYlLUYjNigtRjg2LlEqJnVtaW51czA7RidGMkY0RjtGPUY/RkFGQ0ZFRkcvRkpRLDAuMjIyMjIyMmVtRicvRk1GVy1JI21uR0YkNiVRIjJGJ0YyRjQtRjg2LlEiLEYnRjJGNEY7L0Y+USV0cnVlRidGP0ZBRkNGRUZHL0ZKUSYwLjBlbUYnL0ZNUSwwLjMzMzMzMzNlbUYnRllGMkY0RjJGNEYyRjQ=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JlEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSomRWxlbWVudDtGJ0YyRjQvJSZmZW5jZUdGMS8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0YxLyUqc3ltbWV0cmljR0YxLyUobGFyZ2VvcEdGMS8lLm1vdmFibGVsaW1pdHNHRjEvJSdhY2NlbnRHRjEvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZLLUkobWZlbmNlZEdGJDYlLUYjNigtRjg2LlEqJnVtaW51czA7RidGMkY0RjtGPUY/RkFGQ0ZFRkcvRkpRLDAuMjIyMjIyMmVtRicvRk1GVy1JI21uR0YkNiVRIjJGJ0YyRjQtRjg2LlEiLEYnRjJGNEY7L0Y+USV0cnVlRidGP0ZBRkNGRUZHL0ZKUSYwLjBlbUYnL0ZNUSwwLjMzMzMzMzNlbUYnRllGMkY0RjJGNEYyRjQ=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3479" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">the eigenvalues above are complex conjugates. It follows that:
+If </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3481" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JlEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSomRWxlbWVudDtGJ0YyRjQvJSZmZW5jZUdGMS8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0YxLyUqc3ltbWV0cmljR0YxLyUobGFyZ2VvcEdGMS8lLm1vdmFibGVsaW1pdHNHRjEvJSdhY2NlbnRHRjEvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZLLUkobWZlbmNlZEdGJDYlLUYjNictSSNtbkdGJDYlUSIwRidGMkY0LUY4Ni5RIixGJ0YyRjRGOy9GPlEldHJ1ZUYnRj9GQUZDRkVGRy9GSlEmMC4wZW1GJy9GTVEsMC4zMzMzMzMzZW1GJy1GVDYlUSIyRidGMkY0RjJGNEYyRjQtRjg2LlEifkYnRjJGNEY7Rj1GP0ZBRkNGRUZHRmZuL0ZNRmduRjJGNA==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JlEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSomRWxlbWVudDtGJ0YyRjQvJSZmZW5jZUdGMS8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0YxLyUqc3ltbWV0cmljR0YxLyUobGFyZ2VvcEdGMS8lLm1vdmFibGVsaW1pdHNHRjEvJSdhY2NlbnRHRjEvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZLLUkobWZlbmNlZEdGJDYlLUYjNictSSNtbkdGJDYlUSIwRidGMkY0LUY4Ni5RIixGJ0YyRjRGOy9GPlEldHJ1ZUYnRj9GQUZDRkVGRy9GSlEmMC4wZW1GJy9GTVEsMC4zMzMzMzMzZW1GJy1GVDYlUSIyRidGMkY0RjJGNEYyRjQtRjg2LlEifkYnRjJGNEY7Rj1GP0ZBRkNGRUZHRmZuL0ZNRmduRjJGNA==</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3483" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">then the system has complex conjugate eigenvalues with positive real parts, hence (0,0) would be an unstable spiral source.
+If </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3485" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JlEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSomRWxlbWVudDtGJ0YyRjQvJSZmZW5jZUdGMS8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0YxLyUqc3ltbWV0cmljR0YxLyUobGFyZ2VvcEdGMS8lLm1vdmFibGVsaW1pdHNHRjEvJSdhY2NlbnRHRjEvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZLLUkobWZlbmNlZEdGJDYlLUYjNigtRjg2LlEqJnVtaW51czA7RidGMkY0RjtGPUY/RkFGQ0ZFRkcvRkpRLDAuMjIyMjIyMmVtRicvRk1GVy1JI21uR0YkNiVRIjJGJ0YyRjQtRjg2LlEiLEYnRjJGNEY7L0Y+USV0cnVlRidGP0ZBRkNGRUZHL0ZKUSYwLjBlbUYnL0ZNUSwwLjMzMzMzMzNlbUYnLUZaNiVRIjBGJ0YyRjRGMkY0RjJGNC1GODYuUSJ+RidGMkY0RjtGPUY/RkFGQ0ZFRkdGXG8vRk1GXW9GMkY0">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbWlHRiQ2JlEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSomRWxlbWVudDtGJ0YyRjQvJSZmZW5jZUdGMS8lKnNlcGFyYXRvckdGMS8lKXN0cmV0Y2h5R0YxLyUqc3ltbWV0cmljR0YxLyUobGFyZ2VvcEdGMS8lLm1vdmFibGVsaW1pdHNHRjEvJSdhY2NlbnRHRjEvJSdsc3BhY2VHUSwwLjI3Nzc3NzhlbUYnLyUncnNwYWNlR0ZLLUkobWZlbmNlZEdGJDYlLUYjNigtRjg2LlEqJnVtaW51czA7RidGMkY0RjtGPUY/RkFGQ0ZFRkcvRkpRLDAuMjIyMjIyMmVtRicvRk1GVy1JI21uR0YkNiVRIjJGJ0YyRjQtRjg2LlEiLEYnRjJGNEY7L0Y+USV0cnVlRidGP0ZBRkNGRUZHL0ZKUSYwLjBlbUYnL0ZNUSwwLjMzMzMzMzNlbUYnLUZaNiVRIjBGJ0YyRjRGMkY0RjJGNC1GODYuUSJ+RidGMkY0RjtGPUY/RkFGQ0ZFRkdGXG8vRk1GXW9GMkY0</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3487" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">then the system has complex conjugate eigenvalues with negative real parts, hence (0,0) would be an asymptotically stable spiral sink.
+If </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-input="false" hide-output="false" inline-output="false" labelreference="L3489" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JlEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSI9RidGMkY0LyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSy1JI21uR0YkNiVRIjBGJ0YyRjRGMkY0">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2JlEnJiM5NDk7RicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZXhlY3V0YWJsZUdGMS8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSI9RidGMkY0LyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EsMC4yNzc3Nzc4ZW1GJy8lJ3JzcGFjZUdGSy1JI21uR0YkNiVRIjBGJ0YyRjRGMkY0</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3661" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"> then the system has the purely imaginary eigenvalues i and -i. Hence without further analysis we could not distinguish whether (0,0) is a centre or spiral point, and so its stability is indeterminate.
+
+<Font encoding="UTF-8">For \316\265=2 observe that both eigenvalues are 1. As in this case both eigenvalues are positive, equal and real, it follows that (0,0) would be an unstable nodal source or spiral source.</Font>
+<Font encoding="UTF-8">For \316\265\342\210\210(-\342\210\236,-2) both eigenvalues are real and distinct. Clearly in this case </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRLSZ2YXJlcHNpbG9uO0YnLyUnaXRhbGljR1EmZmFsc2VGJy8lK2V4ZWN1dGFibGVHRjQvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiUtSSNtbkdGJDYlUSIyRidGNUY3RjVGNy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGRS8lKWJldmVsbGVkR0Y0LUkjbW9HRiQ2LlEqJnVtaW51czA7RidGNUY3LyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EsMC4yMjIyMjIyZW1GJy8lJ3JzcGFjZUdGaG4tRks2LlEifkYnRjVGN0ZORlBGUkZURlZGWEZaL0ZnblEmMC4wZW1GJy9Gam5GX28tSSZtc3FydEdGJDYjLUYjNiUtRiw2KC1JKG1mZW5jZWRHRiQ2JS1GIzYnLUklbXN1cEdGJDYlRi5GOi8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictRks2LlEoJm1pbnVzO0YnRjVGN0ZORlBGUkZURlZGWEZaRmZuRmluLUY9NiVRIjRGJ0Y1RjdGNUY3RjVGN0Y6RkBGQ0ZGRkhGNUY3RjVGNw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRLSZ2YXJlcHNpbG9uO0YnLyUnaXRhbGljR1EmZmFsc2VGJy8lK2V4ZWN1dGFibGVHRjQvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiUtSSNtbkdGJDYlUSIyRidGNUY3RjVGNy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGRS8lKWJldmVsbGVkR0Y0LUkjbW9HRiQ2LlEqJnVtaW51czA7RidGNUY3LyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EsMC4yMjIyMjIyZW1GJy8lJ3JzcGFjZUdGaG4tRks2LlEifkYnRjVGN0ZORlBGUkZURlZGWEZaL0ZnblEmMC4wZW1GJy9Gam5GX28tSSZtc3FydEdGJDYjLUYjNiUtRiw2KC1JKG1mZW5jZWRHRiQ2JS1GIzYnLUklbXN1cEdGJDYlRi5GOi8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictRks2LlEoJm1pbnVzO0YnRjVGN0ZORlBGUkZURlZGWEZaRmZuRmluLUY9NiVRIjRGJ0Y1RjdGNUY3RjVGN0Y6RkBGQ0ZGRkhGNUY3RjVGNw==</Equation><Font encoding="UTF-8"> is negative. We wish to determine the values of \316\265 in this domain for which </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRLSZ2YXJlcHNpbG9uO0YnLyUnaXRhbGljR1EmZmFsc2VGJy8lK2V4ZWN1dGFibGVHRjQvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiUtSSNtbkdGJDYlUSIyRidGNUY3RjVGNy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGRS8lKWJldmVsbGVkR0Y0LUkjbW9HRiQ2LlEiK0YnRjVGNy8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmhuLUZLNi5RIn5GJ0Y1RjdGTkZQRlJGVEZWRlhGWi9GZ25RJjAuMGVtRicvRmpuRl9vLUkmbXNxcnRHRiQ2Iy1GIzYlLUYsNigtSShtZmVuY2VkR0YkNiUtRiM2Jy1JJW1zdXBHRiQ2JUYuRjovJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUZLNi5RKCZtaW51cztGJ0Y1RjdGTkZQRlJGVEZWRlhGWkZmbkZpbi1GPTYlUSI0RidGNUY3RjVGN0Y1RjdGOkZARkNGRkZIRjVGN0Y1Rjc=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRLSZ2YXJlcHNpbG9uO0YnLyUnaXRhbGljR1EmZmFsc2VGJy8lK2V4ZWN1dGFibGVHRjQvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiUtSSNtbkdGJDYlUSIyRidGNUY3RjVGNy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGRS8lKWJldmVsbGVkR0Y0LUkjbW9HRiQ2LlEiK0YnRjVGNy8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmhuLUZLNi5RIn5GJ0Y1RjdGTkZQRlJGVEZWRlhGWi9GZ25RJjAuMGVtRicvRmpuRl9vLUkmbXNxcnRHRiQ2Iy1GIzYlLUYsNigtSShtZmVuY2VkR0YkNiUtRiM2Jy1JJW1zdXBHRiQ2JUYuRjovJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUZLNi5RKCZtaW51cztGJ0Y1RjdGTkZQRlJGVEZWRlhGWkZmbkZpbi1GPTYlUSI0RidGNUY3RjVGN0Y1RjdGOkZARkNGRkZIRjVGN0Y1Rjc=</Equation>changes sign, if at all. We do so by calculating the domain for which </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3663" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRLSZ2YXJlcHNpbG9uO0YnLyUnaXRhbGljR1EmZmFsc2VGJy8lK2V4ZWN1dGFibGVHRjQvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiUtSSNtbkdGJDYlUSIyRidGNUY3RjVGNy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGRS8lKWJldmVsbGVkR0Y0LUkjbW9HRiQ2LlEiK0YnRjVGNy8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmhuLUZLNi5RIn5GJ0Y1RjdGTkZQRlJGVEZWRlhGWi9GZ25RJjAuMGVtRicvRmpuRl9vLUkmbXNxcnRHRiQ2Iy1GIzYlLUYsNigtSShtZmVuY2VkR0YkNiUtRiM2Jy1JJW1zdXBHRiQ2JUYuRjovJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUZLNi5RKCZtaW51cztGJ0Y1RjdGTkZQRlJGVEZWRlhGWkZmbkZpbi1GPTYlUSI0RidGNUY3RjVGN0Y1RjdGOkZARkNGRkZIRjVGNy1GSzYuUSI8RidGNUY3Rk5GUEZSRlRGVkZYRlovRmduUSwwLjI3Nzc3NzhlbUYnL0ZqbkZdcS1GPTYlRmJwRjVGN0Y1Rjc=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRLSZ2YXJlcHNpbG9uO0YnLyUnaXRhbGljR1EmZmFsc2VGJy8lK2V4ZWN1dGFibGVHRjQvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiUtSSNtbkdGJDYlUSIyRidGNUY3RjVGNy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGRS8lKWJldmVsbGVkR0Y0LUkjbW9HRiQ2LlEiK0YnRjVGNy8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmhuLUZLNi5RIn5GJ0Y1RjdGTkZQRlJGVEZWRlhGWi9GZ25RJjAuMGVtRicvRmpuRl9vLUkmbXNxcnRHRiQ2Iy1GIzYlLUYsNigtSShtZmVuY2VkR0YkNiUtRiM2Jy1JJW1zdXBHRiQ2JUYuRjovJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUZLNi5RKCZtaW51cztGJ0Y1RjdGTkZQRlJGVEZWRlhGWkZmbkZpbi1GPTYlUSI0RidGNUY3RjVGN0Y1RjdGOkZARkNGRkZIRjVGNy1GSzYuUSI8RidGNUY3Rk5GUEZSRlRGVkZYRlovRmduUSwwLjI3Nzc3NzhlbUYnL0ZqbkZdcS1GPTYlRmJwRjVGN0Y1Rjc=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3428" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"> as follows:
+</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3491" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3493" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3495" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3434" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L3444" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve(epsilon/2 + sqrt((epsilon^2-4)/2)&lt;0);
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3665" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+It follows that if <Font encoding="UTF-8">\316\265\342\210\210(-2</Font><Equation executable="false" style="Text" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRictSSZtc3FydEdGJDYjLUYjNiQtSSNtbkdGJDYkUSIyRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnRjhGOA==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRictSSZtc3FydEdGJDYjLUYjNiQtSSNtbkdGJDYkUSIyRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnRjhGOA==</Equation>,-2), we see that both eigenvalues are real, negative and distinct. Hence in this case (0,0) would be an asymptotically stable node.
+
+Otherwise, if <Font encoding="UTF-8">\316\265\342\210\210(-\342\210\236,-2</Font></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3667" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2I1EhRictSSZtc3FydEdGJDYjLUYjNiYtSSNtbkdGJDYlUSIyRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRidGOC8lMGZvbnRfc3R5bGVfbmFtZUdRJVRleHRGJ0Y7RjhGPkY7">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2I1EhRictSSZtc3FydEdGJDYjLUYjNiYtSSNtbkdGJDYlUSIyRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRidGOC8lMGZvbnRfc3R5bGVfbmFtZUdRJVRleHRGJ0Y7RjhGPkY7</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3669" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">) then the eigenvalues are real and of opposite sign, hence (0,0) would be a saddle point.
+
+<Font encoding="UTF-8">For \316\265\342\210\210(2,\342\210\236) both eigenvalues are real. Analogously to before, </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRLSZ2YXJlcHNpbG9uO0YnLyUnaXRhbGljR1EmZmFsc2VGJy8lK2V4ZWN1dGFibGVHRjQvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiUtSSNtbkdGJDYlUSIyRidGNUY3RjVGNy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGRS8lKWJldmVsbGVkR0Y0LUkjbW9HRiQ2LlEiK0YnRjVGNy8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmhuLUZLNi5RIn5GJ0Y1RjdGTkZQRlJGVEZWRlhGWi9GZ25RJjAuMGVtRicvRmpuRl9vLUkmbXNxcnRHRiQ2Iy1GIzYlLUYsNigtSShtZmVuY2VkR0YkNiUtRiM2Jy1JJW1zdXBHRiQ2JUYuRjovJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUZLNi5RKCZtaW51cztGJ0Y1RjdGTkZQRlJGVEZWRlhGWkZmbkZpbi1GPTYlUSI0RidGNUY3RjVGN0Y1RjdGOkZARkNGRkZIRjVGN0Y1Rjc=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRLSZ2YXJlcHNpbG9uO0YnLyUnaXRhbGljR1EmZmFsc2VGJy8lK2V4ZWN1dGFibGVHRjQvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiUtSSNtbkdGJDYlUSIyRidGNUY3RjVGNy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGRS8lKWJldmVsbGVkR0Y0LUkjbW9HRiQ2LlEiK0YnRjVGNy8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmhuLUZLNi5RIn5GJ0Y1RjdGTkZQRlJGVEZWRlhGWi9GZ25RJjAuMGVtRicvRmpuRl9vLUkmbXNxcnRHRiQ2Iy1GIzYlLUYsNigtSShtZmVuY2VkR0YkNiUtRiM2Jy1JJW1zdXBHRiQ2JUYuRjovJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUZLNi5RKCZtaW51cztGJ0Y1RjdGTkZQRlJGVEZWRlhGWkZmbkZpbi1GPTYlUSI0RidGNUY3RjVGN0Y1RjdGOkZARkNGRkZIRjVGN0Y1Rjc=</Equation>is clearly positive in this case. We wish to determine where on this domain </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3671" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRLSZ2YXJlcHNpbG9uO0YnLyUnaXRhbGljR1EmZmFsc2VGJy8lK2V4ZWN1dGFibGVHRjQvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiUtSSNtbkdGJDYlUSIyRidGNUY3RjVGNy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGRS8lKWJldmVsbGVkR0Y0LUkjbW9HRiQ2LlEqJnVtaW51czA7RidGNUY3LyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EsMC4yMjIyMjIyZW1GJy8lJ3JzcGFjZUdGaG4tRks2LlEifkYnRjVGN0ZORlBGUkZURlZGWEZaL0ZnblEmMC4wZW1GJy9Gam5GX28tSSZtc3FydEdGJDYjLUYjNiUtRiw2KC1JKG1mZW5jZWRHRiQ2JS1GIzYnLUklbXN1cEdGJDYlRi5GOi8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictRks2LlEoJm1pbnVzO0YnRjVGN0ZORlBGUkZURlZGWEZaRmZuRmluLUY9NiVRIjRGJ0Y1RjdGNUY3RjVGN0Y6RkBGQ0ZGRkhGNUY3RjVGNw==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRLSZ2YXJlcHNpbG9uO0YnLyUnaXRhbGljR1EmZmFsc2VGJy8lK2V4ZWN1dGFibGVHRjQvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiUtSSNtbkdGJDYlUSIyRidGNUY3RjVGNy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGRS8lKWJldmVsbGVkR0Y0LUkjbW9HRiQ2LlEqJnVtaW51czA7RidGNUY3LyUmZmVuY2VHRjQvJSpzZXBhcmF0b3JHRjQvJSlzdHJldGNoeUdGNC8lKnN5bW1ldHJpY0dGNC8lKGxhcmdlb3BHRjQvJS5tb3ZhYmxlbGltaXRzR0Y0LyUnYWNjZW50R0Y0LyUnbHNwYWNlR1EsMC4yMjIyMjIyZW1GJy8lJ3JzcGFjZUdGaG4tRks2LlEifkYnRjVGN0ZORlBGUkZURlZGWEZaL0ZnblEmMC4wZW1GJy9Gam5GX28tSSZtc3FydEdGJDYjLUYjNiUtRiw2KC1JKG1mZW5jZWRHRiQ2JS1GIzYnLUklbXN1cEdGJDYlRi5GOi8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRictRks2LlEoJm1pbnVzO0YnRjVGN0ZORlBGUkZURlZGWEZaRmZuRmluLUY9NiVRIjRGJ0Y1RjdGNUY3RjVGN0Y6RkBGQ0ZGRkhGNUY3RjVGNw==</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3673" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"> changes sign. We again do so by calculating the domain for which </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3675" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRLSZ2YXJlcHNpbG9uO0YnLyUnaXRhbGljR1EmZmFsc2VGJy8lK2V4ZWN1dGFibGVHRjQvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiUtSSNtbkdGJDYlUSIyRidGNUY3RjVGNy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGRS8lKWJldmVsbGVkR0Y0LUkjbW9HRiQ2LlEiK0YnRjVGNy8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmhuLUZLNi5RIn5GJ0Y1RjdGTkZQRlJGVEZWRlhGWi9GZ25RJjAuMGVtRicvRmpuRl9vLUkmbXNxcnRHRiQ2Iy1GIzYlLUYsNigtSShtZmVuY2VkR0YkNiUtRiM2Jy1JJW1zdXBHRiQ2JUYuRjovJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUZLNi5RKCZtaW51cztGJ0Y1RjdGTkZQRlJGVEZWRlhGWkZmbkZpbi1GPTYlUSI0RidGNUY3RjVGN0Y1RjdGOkZARkNGRkZIRjVGNy1GSzYuUSI+RidGNUY3Rk5GUEZSRlRGVkZYRlovRmduUSwwLjI3Nzc3NzhlbUYnL0ZqbkZdcS1GPTYlRmJwRjVGN0Zbb0Y1Rjc=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUkmbWZyYWNHRiQ2KC1JI21pR0YkNiZRLSZ2YXJlcHNpbG9uO0YnLyUnaXRhbGljR1EmZmFsc2VGJy8lK2V4ZWN1dGFibGVHRjQvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiUtSSNtbkdGJDYlUSIyRidGNUY3RjVGNy8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGRS8lKWJldmVsbGVkR0Y0LUkjbW9HRiQ2LlEiK0YnRjVGNy8lJmZlbmNlR0Y0LyUqc2VwYXJhdG9yR0Y0LyUpc3RyZXRjaHlHRjQvJSpzeW1tZXRyaWNHRjQvJShsYXJnZW9wR0Y0LyUubW92YWJsZWxpbWl0c0dGNC8lJ2FjY2VudEdGNC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmhuLUZLNi5RIn5GJ0Y1RjdGTkZQRlJGVEZWRlhGWi9GZ25RJjAuMGVtRicvRmpuRl9vLUkmbXNxcnRHRiQ2Iy1GIzYlLUYsNigtSShtZmVuY2VkR0YkNiUtRiM2Jy1JJW1zdXBHRiQ2JUYuRjovJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnLUZLNi5RKCZtaW51cztGJ0Y1RjdGTkZQRlJGVEZWRlhGWkZmbkZpbi1GPTYlUSI0RidGNUY3RjVGN0Y1RjdGOkZARkNGRkZIRjVGNy1GSzYuUSI+RidGNUY3Rk5GUEZSRlRGVkZYRlovRmduUSwwLjI3Nzc3NzhlbUYnL0ZqbkZdcS1GPTYlRmJwRjVGN0Zbb0Y1Rjc=</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3453" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">as follows:</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3454" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L3455" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">solve(epsilon/2 - sqrt((epsilon^2-4)/2)&gt;0);
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3677" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+It follows that if <Font encoding="UTF-8">\316\265\342\210\210(2,2</Font></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3679" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2I1EhRictSSZtc3FydEdGJDYjLUYjNiYtSSNtbkdGJDYlUSIyRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRidGOC8lMGZvbnRfc3R5bGVfbmFtZUdRJVRleHRGJ0Y7RjhGPkY7">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2I1EhRictSSZtc3FydEdGJDYjLUYjNiYtSSNtbkdGJDYlUSIyRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRidGOC8lMGZvbnRfc3R5bGVfbmFtZUdRJVRleHRGJ0Y7RjhGPkY7</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3681" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">), we see that both eigenvalues are real, negative and distinct. Hence in this case (0,0) would be an asymptotically stable node.
+
+Otherwise, if <Font encoding="UTF-8">\316\265\342\210\210(2</Font></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L3683" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2I1EhRictSSZtc3FydEdGJDYjLUYjNiYtSSNtbkdGJDYlUSIyRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRidGOC8lMGZvbnRfc3R5bGVfbmFtZUdRJVRleHRGJ0Y7RjhGPkY7">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYnLUkjbWlHRiQ2I1EhRictSSZtc3FydEdGJDYjLUYjNiYtSSNtbkdGJDYlUSIyRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRidGOC8lMGZvbnRfc3R5bGVfbmFtZUdRJVRleHRGJ0Y7RjhGPkY7</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L3449" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">,\342\210\236) then the eigenvalues are real and of opposite sign, hence (0,0) would be a saddle point.</Font>
+</Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">(b)</Text-field></Title><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L1291" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+<Font encoding="UTF-8">Below, we substitute the value \316\265=0.1 into the system, and then plot the phase portrait:</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3503" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" hide-output="false" labelreference="L3504" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sys3:=(subs(epsilon = 0.1, sys2)): #Substituting epsilon = 0.1 into system
+with(DETools):
+   phaseportrait(sys3,{x(t),y(t)},t=0..60,[[x(0)=0.1,y(0)=0.1],[x(0)=2,y(0)=2]],x = -3 .. 3, y = -3 .. 3,numpoints = 500,linecolor = [green,blue],dirgrid = [20, 20],title=&quot;Phase Portrait (epsilon = 0.1)&quot;); #Plotting phase portrait</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3500" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3501" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+<Font encoding="UTF-8">Observing our phase portrait, we see that for the trajectory through (0.1,0.1) , the trajectory appears to be spiralling away from the origin, hence the critical point matches the analysis that it is locally an unstable spiral source for \316\265\342\210\210(0,2). Note further that the trajectory through (2,2) appears to spiral inwards towards a limit cycle around the origin of radius 2 as t tends to infinity, and so the trajectory through (0.1,0.1) will also spiral outward to the limit cycle.
+</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3557" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Below, we substitute the value \316\265=-0.1 into the system and then plot the phase portrait:
+</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L3556" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sys4:=(subs(epsilon = -0.1, sys2)):
+with(DETools):
+   phaseportrait(sys4,{x(t),y(t)},t=0..30,[[x(0)=0.1,y(0)=0.1],[x(0)=2,y(0)=2]],x = -7 .. 7, y = -7 .. 7,numpoints = 1000,linecolor = [green,blue],dirgrid = [20, 20], title=&quot;Phase Portrait (epsilon = -0.1)&quot;);</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2896" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2895" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Observing our phase portrait we see that near the origin, the trajectory appears to be spiralling towards the centre (illustrated more clearly below on a smaller domain), hence the critical point matches the analysis that it is a locally asymptotically stable spiral sink for \316\265\342\210\210(-2,0). Note further that the trajectory thorugh (2,2) appears to be unstable, tending away from the origin as t goes to infinity and so must be outside the basin of attraction.
+</Font>
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L9944" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Equation executable="true" style="2D Input" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2KlEucGhhc2Vwb3J0cmFpdEYnLyUnZmFtaWx5R1EsQ291cmllcn5OZXdGJy8lJWJvbGRHUSV0cnVlRicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZm9yZWdyb3VuZEdRK1sxMjAsMCwxNF1GJy8lMGZvbnRfc3R5bGVfbmFtZUdRLE1hcGxlfklucHV0RicvJSxtYXRodmFyaWFudEdRJWJvbGRGJy8lK2ZvbnR3ZWlnaHRHRkAtSShtZmVuY2VkR0YkNiktRiM2aW4tRiw2KlElc3lzNEYnRi9GMkY1RjhGO0Y+RkEtSSNtb0dGJDYyUSIsRidGL0YyRjhGO0Y+RkEvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GRDYrLUYjNistRiw2KlEieEYnRi9GMkY1RjhGO0Y+RkEtRkQ2KS1GIzYnLUYsNipRInRGJ0YvRjJGNUY4RjtGPkZBRjIvJStleGVjdXRhYmxlR0Y3Rj5GQUYvRjJGOEY7Rj5GQUZLLUYsNipRInlGJ0YvRjJGNUY4RjtGPkZBRmRvRjJGW3BGPkZBRi9GMkY4RjtGPkZBLyUlb3BlbkdRInxmckYnLyUmY2xvc2VHUSJ8aHJGJ0ZLRmhvLUZMNjJRIj1GJ0YvRjJGOEY7Rj5GQUZPL0ZSRjdGU0ZVRldGWUZlbi9GaG5RLDAuMjc3Nzc3OGVtRicvRltvRltxLUkjbW5HRiQ2KVEiMEYnRi9GMkY4RjtGPkZBLUZMNjJRIy4uRidGL0YyRjhGO0Y+RkFGT0ZpcEZTRlVGV0ZZRmVuL0ZoblEsMC4yMjIyMjIyZW1GJy9GW29GaW4tRl5xNilRIzMwRidGL0YyRjhGO0Y+RkFGSy1GRDYrLUYjNiktRkQ2Ky1GIzYvRmFvLUZENiktRiM2J0ZdcUYyRltwRj5GQUYvRjJGOEY7Rj5GQUZmcC1GXnE2KVEkMC4xRidGL0YyRjhGO0Y+RkFGS0ZdcEZickZmcEZmckYyRltwRj5GQUYvRjJGOEY7Rj5GQS9GYXBRIltGJy9GZHBRIl1GJ0ZLLUZENistRiM2L0Zhb0ZickZmcC1GXnE2KVEiMkYnRi9GMkY4RjtGPkZBRktGXXBGYnJGZnBGYXNGMkZbcEY+RkFGL0YyRjhGO0Y+RkFGaXJGW3NGMkZbcEY+RkFGL0YyRjhGO0Y+RkFGaXJGW3NGS0Zhby1GTDYyUSJ+RidGL0YyRjhGO0Y+RkFGT0ZpcEZTRlVGV0ZZRmVuRmduRmZxRmZwRmRzLUZMNjJRKiZ1bWludXMwO0YnRi9GMkY4RjtGPkZBRk9GaXBGU0ZVRldGWUZlbkZkcS9GW29GZXEtRl5xNilRJTAuMjVGJ0YvRjJGOEY7Rj5GQUZkc0ZhcUZkc0ZbdEZLRmRzRl1wRmRzRmZwRmRzRmdzRlt0RmRzRmFxRmRzRlt0RkstRiw2KlEqbnVtcG9pbnRzRidGL0YyRjVGOEY7Rj5GQUZkc0ZmcEZkcy1GXnE2KVElMTAwMEYnRi9GMkY4RjtGPkZBRkstRiw2KlEqbGluZWNvbG9yRidGL0YyRjVGOEY7Rj5GQUZkc0ZmcEZkcy1GRDYrLUYjNiktRiw2KlEmZ3JlZW5GJ0YvRjJGNUY4RjtGPkZBRkstRiw2KlElYmx1ZUYnRi9GMkY1RjhGO0Y+RkFGMkZbcEY+RkFGL0YyRjhGO0Y+RkFGaXJGW3NGSy1GLDYqUShkaXJncmlkRidGL0YyRjVGOEY7Rj5GQUZkc0ZmcEZkcy1GRDYrLUYjNiotRl5xNilRIzIwRidGL0YyRjhGO0Y+RkFGS0Zkc0ZodUYyRltwRj5GQUYvRjJGOEY7Rj5GQUZpckZbc0ZLLUYsNipRJnRpdGxlRidGL0YyRjVGOEY7Rj5GQUZmcC1JI21zR0YkNiNRTlBoYXNlflBvcnRyYWl0fm9uflNtYWxsZXJ+RG9tYWluKGVwc2lsb249MC4xKUYnLUYsNiNRIUYnRjJGW3BGPkZBRi9GMkY4RjtGPkZBLUZMNjJRIjtGJ0YvRjJGOEY7Rj5GQUZPRlFGU0ZVRldGWUZlbkZnbkZccUYyRltwRj5GQQ==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUkjbWlHRiQ2KlEucGhhc2Vwb3J0cmFpdEYnLyUnZmFtaWx5R1EsQ291cmllcn5OZXdGJy8lJWJvbGRHUSV0cnVlRicvJSdpdGFsaWNHUSZmYWxzZUYnLyUrZm9yZWdyb3VuZEdRK1sxMjAsMCwxNF1GJy8lMGZvbnRfc3R5bGVfbmFtZUdRLE1hcGxlfklucHV0RicvJSxtYXRodmFyaWFudEdRJWJvbGRGJy8lK2ZvbnR3ZWlnaHRHRkAtSShtZmVuY2VkR0YkNiktRiM2aW4tRiw2KlElc3lzNEYnRi9GMkY1RjhGO0Y+RkEtSSNtb0dGJDYyUSIsRidGL0YyRjhGO0Y+RkEvJSZmZW5jZUdGNy8lKnNlcGFyYXRvckdGNC8lKXN0cmV0Y2h5R0Y3LyUqc3ltbWV0cmljR0Y3LyUobGFyZ2VvcEdGNy8lLm1vdmFibGVsaW1pdHNHRjcvJSdhY2NlbnRHRjcvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1GRDYrLUYjNistRiw2KlEieEYnRi9GMkY1RjhGO0Y+RkEtRkQ2KS1GIzYnLUYsNipRInRGJ0YvRjJGNUY4RjtGPkZBRjIvJStleGVjdXRhYmxlR0Y3Rj5GQUYvRjJGOEY7Rj5GQUZLLUYsNipRInlGJ0YvRjJGNUY4RjtGPkZBRmRvRjJGW3BGPkZBRi9GMkY4RjtGPkZBLyUlb3BlbkdRInxmckYnLyUmY2xvc2VHUSJ8aHJGJ0ZLRmhvLUZMNjJRIj1GJ0YvRjJGOEY7Rj5GQUZPL0ZSRjdGU0ZVRldGWUZlbi9GaG5RLDAuMjc3Nzc3OGVtRicvRltvRltxLUkjbW5HRiQ2KVEiMEYnRi9GMkY4RjtGPkZBLUZMNjJRIy4uRidGL0YyRjhGO0Y+RkFGT0ZpcEZTRlVGV0ZZRmVuL0ZoblEsMC4yMjIyMjIyZW1GJy9GW29GaW4tRl5xNilRIzMwRidGL0YyRjhGO0Y+RkFGSy1GRDYrLUYjNiktRkQ2Ky1GIzYvRmFvLUZENiktRiM2J0ZdcUYyRltwRj5GQUYvRjJGOEY7Rj5GQUZmcC1GXnE2KVEkMC4xRidGL0YyRjhGO0Y+RkFGS0ZdcEZickZmcEZmckYyRltwRj5GQUYvRjJGOEY7Rj5GQS9GYXBRIltGJy9GZHBRIl1GJ0ZLLUZENistRiM2L0Zhb0ZickZmcC1GXnE2KVEiMkYnRi9GMkY4RjtGPkZBRktGXXBGYnJGZnBGYXNGMkZbcEY+RkFGL0YyRjhGO0Y+RkFGaXJGW3NGMkZbcEY+RkFGL0YyRjhGO0Y+RkFGaXJGW3NGS0Zhby1GTDYyUSJ+RidGL0YyRjhGO0Y+RkFGT0ZpcEZTRlVGV0ZZRmVuRmduRmZxRmZwRmRzLUZMNjJRKiZ1bWludXMwO0YnRi9GMkY4RjtGPkZBRk9GaXBGU0ZVRldGWUZlbkZkcS9GW29GZXEtRl5xNilRJTAuMjVGJ0YvRjJGOEY7Rj5GQUZkc0ZhcUZkc0ZbdEZLRmRzRl1wRmRzRmZwRmRzRmdzRlt0RmRzRmFxRmRzRlt0RkstRiw2KlEqbnVtcG9pbnRzRidGL0YyRjVGOEY7Rj5GQUZkc0ZmcEZkcy1GXnE2KVElMTAwMEYnRi9GMkY4RjtGPkZBRkstRiw2KlEqbGluZWNvbG9yRidGL0YyRjVGOEY7Rj5GQUZkc0ZmcEZkcy1GRDYrLUYjNiktRiw2KlEmZ3JlZW5GJ0YvRjJGNUY4RjtGPkZBRkstRiw2KlElYmx1ZUYnRi9GMkY1RjhGO0Y+RkFGMkZbcEY+RkFGL0YyRjhGO0Y+RkFGaXJGW3NGSy1GLDYqUShkaXJncmlkRidGL0YyRjVGOEY7Rj5GQUZkc0ZmcEZkcy1GRDYrLUYjNiotRl5xNilRIzIwRidGL0YyRjhGO0Y+RkFGS0Zkc0ZodUYyRltwRj5GQUYvRjJGOEY7Rj5GQUZpckZbc0ZLLUYsNipRJnRpdGxlRidGL0YyRjVGOEY7Rj5GQUZmcC1JI21zR0YkNiNRTlBoYXNlflBvcnRyYWl0fm9uflNtYWxsZXJ+RG9tYWluKGVwc2lsb249MC4xKUYnLUYsNiNRIUYnRjJGW3BGPkZBRi9GMkY4RjtGPkZBLUZMNjJRIjtGJ0YvRjJGOEY7Rj5GQUZPRlFGU0ZVRldGWUZlbkZnbkZccUYyRltwRj5GQQ==</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section>
+</Section><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1265" drawlabel="true">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Exercise 3</Text-field></Title>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">(a)</Text-field></Title><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L3994" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L4051" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Below we define the system in question</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L4053" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">, and then solve</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L4055" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkmbWZyYWNHRiQ2KC1GIzYmLUkjbWlHRiQ2JlEjZHhGJy8lJ2l0YWxpY0dRJXRydWVGJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJ0Y0RjdGOi1GIzYmLUYxNiZRI2R0RidGNEY3RjpGNEY3RjovJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRkcvJSliZXZlbGxlZEdGOS1JI21vR0YkNi5RIj1GJ0Y3L0Y7USdub3JtYWxGJy8lJmZlbmNlR0Y5LyUqc2VwYXJhdG9yR0Y5LyUpc3RyZXRjaHlHRjkvJSpzeW1tZXRyaWNHRjkvJShsYXJnZW9wR0Y5LyUubW92YWJsZWxpbWl0c0dGOS8lJ2FjY2VudEdGOS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRlxvLUkjbW5HRiQ2JVEiMEYnRjdGUC1GTTYuUSJ+RidGN0ZQRlJGVEZWRlhGWkZmbkZobi9GW29RJjAuMGVtRicvRl5vRmdvRjdGUA==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkmbWZyYWNHRiQ2KC1GIzYmLUkjbWlHRiQ2JlEjZHhGJy8lJ2l0YWxpY0dRJXRydWVGJy8lK2V4ZWN1dGFibGVHUSZmYWxzZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJ0Y0RjdGOi1GIzYmLUYxNiZRI2R0RidGNEY3RjpGNEY3RjovJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRkcvJSliZXZlbGxlZEdGOS1JI21vR0YkNi5RIj1GJ0Y3L0Y7USdub3JtYWxGJy8lJmZlbmNlR0Y5LyUqc2VwYXJhdG9yR0Y5LyUpc3RyZXRjaHlHRjkvJSpzeW1tZXRyaWNHRjkvJShsYXJnZW9wR0Y5LyUubW92YWJsZWxpbWl0c0dGOS8lJ2FjY2VudEdGOS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRlxvLUkjbW5HRiQ2JVEiMEYnRjdGUC1GTTYuUSJ+RidGN0ZQRlJGVEZWRlhGWkZmbkZobi9GW29RJjAuMGVtRicvRl5vRmdvRjdGUA==</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L4057" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">and</Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L2589" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbW9HRiQ2LlEifkYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGRS1JJm1mcmFjR0YkNigtRiM2Ji1JI21pR0YkNiZRI2R5RicvJSdpdGFsaWNHUSV0cnVlRidGLy9GM1EnaXRhbGljRidGUUYvRlQtRiM2Ji1GTjYmUSNkdEYnRlFGL0ZURlFGL0ZULyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zqbi8lKWJldmVsbGVkR0YxLUYsNi5RIj1GJ0YvRjJGNUY3RjlGO0Y9Rj9GQS9GRFEsMC4yNzc3Nzc4ZW1GJy9GR0Zjby1JI21uR0YkNiVRIjBGJ0YvRjJGL0Yy">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYoLUkjbW9HRiQ2LlEifkYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLyUmZmVuY2VHRjEvJSpzZXBhcmF0b3JHRjEvJSlzdHJldGNoeUdGMS8lKnN5bW1ldHJpY0dGMS8lKGxhcmdlb3BHRjEvJS5tb3ZhYmxlbGltaXRzR0YxLyUnYWNjZW50R0YxLyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGRS1JJm1mcmFjR0YkNigtRiM2Ji1JI21pR0YkNiZRI2R5RicvJSdpdGFsaWNHUSV0cnVlRidGLy9GM1EnaXRhbGljRidGUUYvRlQtRiM2Ji1GTjYmUSNkdEYnRlFGL0ZURlFGL0ZULyUubGluZXRoaWNrbmVzc0dRIjFGJy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zqbi8lKWJldmVsbGVkR0YxLUYsNi5RIj1GJ0YvRjJGNUY3RjlGO0Y9Rj9GQS9GRFEsMC4yNzc3Nzc4ZW1GJy9GR0Zjby1JI21uR0YkNiVRIjBGJ0YvRjJGL0Yy</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L4001" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5097" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"> in order to find the critical points:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L3991" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sys5 := {diff(x(t),t) = a-x(t)-b*x(t)+x(t)^2*y(t), diff(y(t),t) = b*x(t)-x(t)^2*y(t)}; #Defining the system
+critical_points2 := solve({rhs(sys5[1])=0,rhs(sys5[2])=0},{x(t),y(t)}): #Calculating critical points
+CP := eval([x(t),y(t)],critical_points2): #Displaying critical points
+CP;</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2897" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L4059" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">We now reuse our procedure from Exercise 1 to linearise the system for this critical point </Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5401" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L5400" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkobWZlbmNlZEdGJDYlLUYjNictSSNtaUdGJDYmUSJhRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYuUSIsRidGNy9GO1Enbm9ybWFsRicvJSZmZW5jZUdGOS8lKnNlcGFyYXRvckdGNi8lKXN0cmV0Y2h5R0Y5LyUqc3ltbWV0cmljR0Y5LyUobGFyZ2VvcEdGOS8lLm1vdmFibGVsaW1pdHNHRjkvJSdhY2NlbnRHRjkvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1JJm1mcmFjR0YkNigtRjE2JlEiYkYnRjRGN0Y6LUYjNiZGMEY0RjdGOi8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGXm8vJSliZXZlbGxlZEdGOUY3RkFGN0ZBLUY+Ni5RIi5GJ0Y3RkFGQy9GRkY5RkdGSUZLRk1GT0ZRL0ZVRlNGN0ZB">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkobWZlbmNlZEdGJDYlLUYjNictSSNtaUdGJDYmUSJhRicvJSdpdGFsaWNHUSV0cnVlRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1EnaXRhbGljRictSSNtb0dGJDYuUSIsRidGNy9GO1Enbm9ybWFsRicvJSZmZW5jZUdGOS8lKnNlcGFyYXRvckdGNi8lKXN0cmV0Y2h5R0Y5LyUqc3ltbWV0cmljR0Y5LyUobGFyZ2VvcEdGOS8lLm1vdmFibGVsaW1pdHNHRjkvJSdhY2NlbnRHRjkvJSdsc3BhY2VHUSYwLjBlbUYnLyUncnNwYWNlR1EsMC4zMzMzMzMzZW1GJy1JJm1mcmFjR0YkNigtRjE2JlEiYkYnRjRGN0Y6LUYjNiZGMEY0RjdGOi8lLmxpbmV0aGlja25lc3NHUSIxRicvJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGXm8vJSliZXZlbGxlZEdGOUY3RkFGN0ZBLUY+Ni5RIi5GJ0Y3RkFGQy9GRkY5RkdGSUZLRk1GT0ZRL0ZVRlNGN0ZB</Equation></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5404" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5607" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">As we are not interested governing matrix, we select the output corresponding to the eigenvalues and eigenvectors from this procedure. We obtain the (suppressed) vector of eigenvalues and corresponding matrix of eignvectors below:</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L4009" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L4010" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L4011" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">solution_a:=linearise(sys5,CP): #Linearising around (a,b/a)
+EigVals2 := solution_a[2]: #Accessing eigenvalue output.
+EigVecs2 := solution_a[3]: #Accessing eigenvector first output.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L4007" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L4008" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">As before we can extract each of our eigenvalue and eigenvector and eigenvalue pairs as follows:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5919" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">EigVals2[1]; #Choosing first eigenvalue
+EigVecs2[1..2,1]; #Choosing first column of eigenvector matrix
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L4006" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+and
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5920" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">EigVals2[2]; #Choosing second eigenvalue from vector
+EigVecs2[1..2,2]; #Choosing second eigenvector from eigenvector matrix</Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">(b)</Text-field></Title><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5748" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+Below we substitute the parameters a=1 and b=0.5 into the system, then plot the phase portrait.
+</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5746" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5747" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sys6 := (subs([a=1,b=0.5], sys5)): #Substituting a=1 and b=0.5 into system
+with(DETools):
+   phaseportrait(sys6,{x(t),y(t)},t=0..40,[[x(0)=0,y(0)=0],[x(0)=2,y(0)=3]],x = 0 .. 5, y = 0 .. 5,linecolor = [green,blue],numpoints=1000,dirgrid = [30, 30],thickness=2); #Plotting phase portrait</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5843" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+We can observe that both the trajectory through the point (0,0) and (2,3) both tend to the critical point </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L5845" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkobWZlbmNlZEdGJDYlLUYjNictSSNtbkdGJDYlUSIxRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSIsRidGNEY3LyUmZmVuY2VHRjYvJSpzZXBhcmF0b3JHUSV0cnVlRicvJSlzdHJldGNoeUdGNi8lKnN5bW1ldHJpY0dGNi8lKGxhcmdlb3BHRjYvJS5tb3ZhYmxlbGltaXRzR0Y2LyUnYWNjZW50R0Y2LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictSSZtZnJhY0dGJDYoRjAtRiM2Ji1GMTYlUSIyRidGNEY3LyUnaXRhbGljR0ZCRjQvRjhRJ2l0YWxpY0YnLyUubGluZXRoaWNrbmVzc0dGMy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zdby8lKWJldmVsbGVkR0Y2RjRGN0Y0RjdGNEY3">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkobWZlbmNlZEdGJDYlLUYjNictSSNtbkdGJDYlUSIxRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRictSSNtb0dGJDYuUSIsRidGNEY3LyUmZmVuY2VHRjYvJSpzZXBhcmF0b3JHUSV0cnVlRicvJSlzdHJldGNoeUdGNi8lKnN5bW1ldHJpY0dGNi8lKGxhcmdlb3BHRjYvJS5tb3ZhYmxlbGltaXRzR0Y2LyUnYWNjZW50R0Y2LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdRLDAuMzMzMzMzM2VtRictSSZtZnJhY0dGJDYoRjAtRiM2Ji1GMTYlUSIyRidGNEY3LyUnaXRhbGljR0ZCRjQvRjhRJ2l0YWxpY0YnLyUubGluZXRoaWNrbmVzc0dGMy8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zdby8lKWJldmVsbGVkR0Y2RjRGN0Y0RjdGNEY3</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5128" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"> and so the critical point is asympotically stable and appears to behave as a spiral.
+
+Below we substitute the parameters a=1 and b=3 into the system, then plot the phase portrait.
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-output="false" labelreference="L4242" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sys7 := (subs([a=1,b=3], sys5)): #Substituting a=1 and b=3 into system
+with(DETools):
+   phaseportrait(sys7,{x(t),y(t)},t=0..70,[[x(0)=0,y(0)=0],[x(0)=2,y(0)=3]],x = 0 .. 5, y = 0 .. 5,linecolor = [green,blue],numpoints=1000,dirgrid = [30, 30],thickness=2); #Plotting phase portrait</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5738" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L4243" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">We see that the trajectory through (0,0) converges inward to a periodic limit cycle, while the trajectory through (2,3) converges outwards to the same periodic limit cycle, and so the critical point (1,3) is a centre.</Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">(c)</Text-field></Title><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2900" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+Below we substitute the value a=1 into the original system, and then vary the value of b between 0.5 and 3 in order to identify, using an animation, the value of b for which the behaviour of the system changes.
+</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L9625" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" hide-output="false" labelreference="L9623" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sys8 := subs(a=1,sys5):
+plots:-animate( DEtools:-phaseportrait, [ sys8, { x(t), y(t) }, t=0..30, [ [x(0)=0,y(0)=0], [x(0)=2,y(0)=3] ], x=0..5, y=0..5, linecolor = [green,blue],numpoints=500,dirgrid = [30, 30] ], b=0.5..3,thickness=1);
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L9620" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L9624" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">We see that the value of b at which the behaviour around the critical point changes from a spiral to a centre is approximately 2 (frame 15 to frame 16). To see what happens with the eigenvalues in (a) at this point, we substitute a=1,b=2 into the obtained equations for eigenvalues:
+</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L9618" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L9622" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">evalf(subs([a=1,b=2],solution_a[2])); #Substituting values a=1,b=2 into vector of eigenvalues for linearised system in previous procedure</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L9621" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L9619" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">We see that these are purely imaginary conjugates and therefore act as a centre, which explains the behaviour change described above.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L1296" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">(d)</Text-field></Title><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2903" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2905" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Notice that for a=1 and b=3, the trajectory through (3,1) exhibits periodic behaviour, for sufficiently large t (here I have chosen the range 60&gt;t&gt;20).</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2901" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" hide-output="false" labelreference="L5834" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):
+   plot_sys := sys7 union {x(0)=0,y(0)=0}: #UsingAppending initial conditions.
+   odesolution:=dsolve(plot_sys,numeric,[x(t),y(t)],output=listprocedure): #Numerically solving system of equations
+   p1 := odeplot(odesolution,[[t,x(t)],[t,y(t)]],t=20..60,legend=[&quot;x(t)&quot;,&quot;y(t)&quot;],title=&quot;Periodic Behaviour of x(t) and y(t)&quot;,color = [&quot;navy&quot;,&quot;orange&quot;]); #Plotting x(t) and y(t) against t. #Plotting solutions to system
+
+   </Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L9261" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L9263" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">We can from the above plot that for t&gt;10 the behaviour of the trajectory through (0,0) is periodic in both x and y.</Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section>
+</Section><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1248" drawlabel="true">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2911" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" hide-input="false" hide-output="true" inline-output="false" labelreference="L1249" drawlabel="true">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1">Exercise 4</Text-field></Title>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">(a) </Text-field></Title><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2636" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2091" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">We input the given system:</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5283" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5284" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sys9 := {diff(x(t),t) = -y(t)-z(t), diff(y(t),t) = x(t)+1/5*y(t),diff(z(t),t) = 1/5+(x(t)-5/2)*z(t)}; #Defining the system of equations
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5288" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+At the critical points, we require each of the derivatives to equal to zero:
+
+ <Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYsLUkjbW5HRiQ2JVEiMEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LlEiPUYnRi9GMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktRjY2LlEqJnVtaW51czA7RidGL0YyRjlGO0Y9Rj9GQUZDRkUvRkhRLDAuMjIyMjIyMmVtRicvRktGUC1JI21pR0YkNiZRInlGJy8lJ2l0YWxpY0dRJXRydWVGJ0YvL0YzUSdpdGFsaWNGJy1GNjYuUSgmbWludXM7RidGL0YyRjlGO0Y9Rj9GQUZDRkVGT0ZRLUZTNiZRInpGJ0ZWRi9GWS1GNjYuUSJ+RidGL0YyRjlGO0Y9Rj9GQUZDRkUvRkhRJjAuMGVtRicvRktGX29GW29GL0Yy">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYsLUkjbW5HRiQ2JVEiMEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LlEiPUYnRi9GMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktRjY2LlEqJnVtaW51czA7RidGL0YyRjlGO0Y9Rj9GQUZDRkUvRkhRLDAuMjIyMjIyMmVtRicvRktGUC1JI21pR0YkNiZRInlGJy8lJ2l0YWxpY0dRJXRydWVGJ0YvL0YzUSdpdGFsaWNGJy1GNjYuUSgmbWludXM7RidGL0YyRjlGO0Y9Rj9GQUZDRkVGT0ZRLUZTNiZRInpGJ0ZWRi9GWS1GNjYuUSJ+RidGL0YyRjlGO0Y9Rj9GQUZDRkUvRkhRJjAuMGVtRicvRktGX29GW29GL0Yy</Equation>
+<Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbW5HRiQ2JVEiMEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LlEiPUYnRi9GMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktSSNtaUdGJDYmUSJ4RicvJSdpdGFsaWNHUSV0cnVlRidGLy9GM1EnaXRhbGljRictRjY2LlEiK0YnRi9GMkY5RjtGPUY/RkFGQ0ZFL0ZIUSwwLjIyMjIyMjJlbUYnL0ZLRlktSSZtZnJhY0dGJDYoLUYsNiVRIjFGJ0YvRjItRiM2Ji1GLDYlUSI1RidGL0YyRlBGL0ZTLyUubGluZXRoaWNrbmVzc0dGam4vJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGZG8vJSliZXZlbGxlZEdGMS1GTTYmUSJ5RidGUEYvRlNGL0Yy">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbW5HRiQ2JVEiMEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LlEiPUYnRi9GMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktSSNtaUdGJDYmUSJ4RicvJSdpdGFsaWNHUSV0cnVlRidGLy9GM1EnaXRhbGljRictRjY2LlEiK0YnRi9GMkY5RjtGPUY/RkFGQ0ZFL0ZIUSwwLjIyMjIyMjJlbUYnL0ZLRlktSSZtZnJhY0dGJDYoLUYsNiVRIjFGJ0YvRjItRiM2Ji1GLDYlUSI1RidGL0YyRlBGL0ZTLyUubGluZXRoaWNrbmVzc0dGam4vJStkZW5vbWFsaWduR1EnY2VudGVyRicvJSludW1hbGlnbkdGZG8vJSliZXZlbGxlZEdGMS1GTTYmUSJ5RidGUEYvRlNGL0Yy</Equation>
+<Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbW5HRiQ2JVEiMEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LlEiPUYnRi9GMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktSSZtZnJhY0dGJDYoLUYsNiVRIjFGJ0YvRjItRiM2Ji1GLDYlUSI1RidGL0YyLyUnaXRhbGljR1EldHJ1ZUYnRi8vRjNRJ2l0YWxpY0YnLyUubGluZXRoaWNrbmVzc0dGUS8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zqbi8lKWJldmVsbGVkR0YxLUY2Ni5RIitGJ0YvRjJGOUY7Rj1GP0ZBRkNGRS9GSFEsMC4yMjIyMjIyZW1GJy9GS0Zjby1JKG1mZW5jZWRHRiQ2JS1GIzYnLUkjbWlHRiQ2JlEieEYnRldGL0ZaLUY2Ni5RKCZtaW51cztGJ0YvRjJGOUY7Rj1GP0ZBRkNGRUZib0Zkby1GTTYoRlQtRiM2Ji1GLDYlUSIyRidGL0YyRldGL0ZaRmZuRmhuRltvRl1vRi9GMkYvRjItRltwNiZRInpGJ0ZXRi9GWkYvRjI=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYqLUkjbW5HRiQ2JVEiMEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LlEiPUYnRi9GMi8lJmZlbmNlR0YxLyUqc2VwYXJhdG9yR0YxLyUpc3RyZXRjaHlHRjEvJSpzeW1tZXRyaWNHRjEvJShsYXJnZW9wR0YxLyUubW92YWJsZWxpbWl0c0dGMS8lJ2FjY2VudEdGMS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkktSSZtZnJhY0dGJDYoLUYsNiVRIjFGJ0YvRjItRiM2Ji1GLDYlUSI1RidGL0YyLyUnaXRhbGljR1EldHJ1ZUYnRi8vRjNRJ2l0YWxpY0YnLyUubGluZXRoaWNrbmVzc0dGUS8lK2Rlbm9tYWxpZ25HUSdjZW50ZXJGJy8lKW51bWFsaWduR0Zqbi8lKWJldmVsbGVkR0YxLUY2Ni5RIitGJ0YvRjJGOUY7Rj1GP0ZBRkNGRS9GSFEsMC4yMjIyMjIyZW1GJy9GS0Zjby1JKG1mZW5jZWRHRiQ2JS1GIzYnLUkjbWlHRiQ2JlEieEYnRldGL0ZaLUY2Ni5RKCZtaW51cztGJ0YvRjJGOUY7Rj1GP0ZBRkNGRUZib0Zkby1GTTYoRlQtRiM2Ji1GLDYlUSIyRidGL0YyRldGL0ZaRmZuRmhuRltvRl1vRi9GMkYvRjItRltwNiZRInpGJ0ZXRi9GWkYvRjI=</Equation>
+
+We solve to find the critical points below: 
+
+<Font opaque="true" background="[255,255,0]" bold="true" italic="true">[I assumed the 'elaf' suggestion applied to the eigenvalues only]</Font><Font opaque="true" background="[255,255,0]">
+</Font></Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L5287" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">critical_points_implicit := solve({rhs(sys9[1])=0,rhs(sys9[2])=0,rhs(sys9[3])=0},{x(t),y(t),z(t)}): #Solving for critical points by setting the right-hand side of each equation to zero.
+critical_points_explicit := map(allvalues,{critical_points_implicit}): #Finding explicit solutions
+CP1_eval := eval(critical_points_explicit[1]): #Evaluating first critical point
+CP2_eval := eval(critical_points_explicit[2]): #Evaluating second critical point
+
+CP1 := eval([x(t),y(t),z(t)],CP1_eval);
+CP2 := eval([x(t),y(t),z(t)],CP2_eval);
+
+</Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L5289" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L5280" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">We now wish to find the eigenvalues associated with each critical point. To do so we linearise the system around the critical point using the following procedure, a 3 dimensional adjustment to that in exercise 1:
+
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L6964" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">linearise3d := proc(DE_system, critical_point)
+   local F,G,H,expansion1,expansion2,expansion3,Matrix_11,Matrix_12,Matrix_13,Matrix_21,Matrix_22,Matrix_23,Matrix_31,Matrix_32,Matrix_33,Matrix,EigenSolution:
+
+   F := subs(x(t)=x,y(t)=y,z(t)=z,rhs(DE_system[1])): #Taking the right-hand side of the first of the defined system equations, and substituting x(t) with x, y(t) with y and z(t) with z to allow for taylor expansion later.
+   G := subs(x(t)=x,y(t)=y,z(t)=z,rhs(DE_system[2])): #Taking the right-hand side of the second of the defined system equations, and substituting x(t) with x, y(t) with y and z(t) with z to allow for taylor expansion later.
+   H := subs(x(t)=x,y(t)=y,z(t)=z,rhs(DE_system[3])): #Taking the right-hand side of the first of the defined system equations, and substituting x(t) with x, y(t) with y and z(t) with z to allow for taylor expansion later.
+
+(*Linearising each row of the system by performing the Taylor expansion of the first equation up to the second term around the critical point.*)
+
+   expansion1:=mtaylor(F,[x=critical_point[1],y=critical_point[2],z=critical_point[3]],2): 
+   expansion2:=mtaylor(G,[x=critical_point[1],y=critical_point[2],z=critical_point[3]],2):
+   expansion3:=mtaylor(H,[x=critical_point[1],y=critical_point[2],z=critical_point[3]],2):
+
+(*Calculating the coefficients for the x, y, z terms corresponding to these Taylor expansions, to compute Jacobian Matrix elements*)
+
+   Matrix_11 := coeff(expansion1,x):
+   Matrix_12 := coeff(expansion1,y):
+   Matrix_13 := coeff(expansion1,z):
+   Matrix_21 := coeff(expansion2,x):
+   Matrix_22 := coeff(expansion2,y):
+   Matrix_23 := coeff(expansion2,z):
+   Matrix_31 := coeff(expansion3,x):
+   Matrix_32 := coeff(expansion3,y):
+   Matrix_33 := coeff(expansion3,z):
+
+(*Constructing the matrix governing the linearised system about the critical point*)
+
+   Matrix := &lt;Matrix_11,Matrix_12,Matrix_13;Matrix_21,Matrix_22,Matrix_23;Matrix_31,Matrix_32,Matrix_33&gt;: #Writing calculated coefficients in matrix form.
+
+(*Calculating the eigenvalues and eigenvectors using in-built LinearAlgebra function*)
+
+   EigenSolution := LinearAlgebra[Eigenvectors](Matrix):
+
+return Matrix,EigenSolution; #Outputs governing matrix, eigenvalues, and matrix of corresponding eigenvectors.
+
+end proc:<Font style="Text">
+</Font></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L6975" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L6982" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">Note we are only interested in the eigenvalue outputs from our procedure for each critical point, and so we are only selecting the second output of our procedure:
+
+The eigenvalues associated to the critical point </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L6984" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkobWZlbmNlZEdGJDYmLUYjNjAtSSZtZnJhY0dGJDYoLUkjbW5HRiQ2JlEiNUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJTBmb250X3N0eWxlX25hbWVHUSkyRH5JbnB1dEYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GNDYmUSI0RidGN0Y6Rj0vJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRkgvJSliZXZlbGxlZEdGOS1JI21vR0YkNi9RKCZtaW51cztGJ0Y3RjpGPS8lJmZlbmNlR0Y5LyUqc2VwYXJhdG9yR0Y5LyUpc3RyZXRjaHlHRjkvJSpzeW1tZXRyaWNHRjkvJShsYXJnZW9wR0Y5LyUubW92YWJsZWxpbWl0c0dGOS8lJ2FjY2VudEdGOS8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRltvLUYxNigtSSZtc3FydEdGJDYjLUY0NiZRJDYwOUYnRjdGOkY9LUY0NiZRIzIwRidGN0Y6Rj1GQ0ZGRklGSy1GTjYvUSIsRidGN0Y6Rj1GUS9GVFEldHJ1ZUYnRlVGV0ZZRmVuRmduL0ZqblEmMC4wZW1GJy9GXW9RLDAuMzMzMzMzM2VtRictRk42L1EqJnVtaW51czA7RidGN0Y6Rj1GUUZTRlVGV0ZZRmVuRmduRmluRlxvLUYxNigtRjQ2JlEjMjVGJ0Y3RjpGPUZARkNGRkZJRkstRk42L1EnJnBsdXM7RidGN0Y6Rj1GUUZTRlVGV0ZZRmVuRmduRmluRlxvLUYxNihGYG9GQEZDRkZGSUZLRmlvRmVwRk1GXXFGN0Y9RjdGOkY9RjdGPQ==">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkobWZlbmNlZEdGJDYmLUYjNjAtSSZtZnJhY0dGJDYoLUkjbW5HRiQ2JlEiNUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJTBmb250X3N0eWxlX25hbWVHUSkyRH5JbnB1dEYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GNDYmUSI0RidGN0Y6Rj0vJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRkgvJSliZXZlbGxlZEdGOS1JI21vR0YkNi9RKCZtaW51cztGJ0Y3RjpGPS8lJmZlbmNlR0Y5LyUqc2VwYXJhdG9yR0Y5LyUpc3RyZXRjaHlHRjkvJSpzeW1tZXRyaWNHRjkvJShsYXJnZW9wR0Y5LyUubW92YWJsZWxpbWl0c0dGOS8lJ2FjY2VudEdGOS8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRltvLUYxNigtSSZtc3FydEdGJDYjLUY0NiZRJDYwOUYnRjdGOkY9LUY0NiZRIzIwRidGN0Y6Rj1GQ0ZGRklGSy1GTjYvUSIsRidGN0Y6Rj1GUS9GVFEldHJ1ZUYnRlVGV0ZZRmVuRmduL0ZqblEmMC4wZW1GJy9GXW9RLDAuMzMzMzMzM2VtRictRk42L1EqJnVtaW51czA7RidGN0Y6Rj1GUUZTRlVGV0ZZRmVuRmduRmluRlxvLUYxNigtRjQ2JlEjMjVGJ0Y3RjpGPUZARkNGRkZJRkstRk42L1EnJnBsdXM7RidGN0Y6Rj1GUUZTRlVGV0ZZRmVuRmduRmluRlxvLUYxNihGYG9GQEZDRkZGSUZLRmlvRmVwRk1GXXFGN0Y9RjdGOkY9RjdGPQ==</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L6976" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"> are:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L6978" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">eigvals1:=linearise3d(sys9,CP1)[2]: #Extracting the eigenvalue output from procedure
+eigvalf1:=evalf(eigvals1): #Converting eigenvalues into floats to reduce output
+
+(*Outputting eigenvalues*)
+
+eigvalf1[1];
+eigvalf1[2];
+eigvalf1[3];
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L6986" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+The eigenvalues associated to the critical point </Text-field>
+</Input>
+</Group>
+<Group view="presentation" hide-output="false" inline-output="false" labelreference="L6988" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkobWZlbmNlZEdGJDYlLUYjNjAtSSZtZnJhY0dGJDYoLUkjbW5HRiQ2JVEiNUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUY0NiVRIjRGJ0Y3RjovJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRkUvJSliZXZlbGxlZEdGOS1JI21vR0YkNi5RJyZwbHVzO0YnRjdGOi8lJmZlbmNlR0Y5LyUqc2VwYXJhdG9yR0Y5LyUpc3RyZXRjaHlHRjkvJSpzeW1tZXRyaWNHRjkvJShsYXJnZW9wR0Y5LyUubW92YWJsZWxpbWl0c0dGOS8lJ2FjY2VudEdGOS8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmhuLUYxNigtSSZtc3FydEdGJDYjLUY0NiVRJDYwOUYnRjdGOi1GNDYlUSMyMEYnRjdGOkZARkNGRkZILUZLNi5RIixGJ0Y3RjpGTi9GUVEldHJ1ZUYnRlJGVEZWRlhGWi9GZ25RJjAuMGVtRicvRmpuUSwwLjMzMzMzMzNlbUYnLUZLNi5RKiZ1bWludXMwO0YnRjdGOkZORlBGUkZURlZGWEZaRmZuRmluLUYxNigtRjQ2JVEjMjVGJ0Y3RjpGPUZARkNGRkZILUZLNi5RKCZtaW51cztGJ0Y3RjpGTkZQRlJGVEZWRlhGWkZmbkZpbi1GMTYoRl1vRj1GQEZDRkZGSEZmb0ZicEZKRmpwRjdGOkY3RjpGN0Y6">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkobWZlbmNlZEdGJDYlLUYjNjAtSSZtZnJhY0dGJDYoLUkjbW5HRiQ2JVEiNUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUY0NiVRIjRGJ0Y3RjovJS5saW5ldGhpY2tuZXNzR1EiMUYnLyUrZGVub21hbGlnbkdRJ2NlbnRlckYnLyUpbnVtYWxpZ25HRkUvJSliZXZlbGxlZEdGOS1JI21vR0YkNi5RJyZwbHVzO0YnRjdGOi8lJmZlbmNlR0Y5LyUqc2VwYXJhdG9yR0Y5LyUpc3RyZXRjaHlHRjkvJSpzeW1tZXRyaWNHRjkvJShsYXJnZW9wR0Y5LyUubW92YWJsZWxpbWl0c0dGOS8lJ2FjY2VudEdGOS8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmhuLUYxNigtSSZtc3FydEdGJDYjLUY0NiVRJDYwOUYnRjdGOi1GNDYlUSMyMEYnRjdGOkZARkNGRkZILUZLNi5RIixGJ0Y3RjpGTi9GUVEldHJ1ZUYnRlJGVEZWRlhGWi9GZ25RJjAuMGVtRicvRmpuUSwwLjMzMzMzMzNlbUYnLUZLNi5RKiZ1bWludXMwO0YnRjdGOkZORlBGUkZURlZGWEZaRmZuRmluLUYxNigtRjQ2JVEjMjVGJ0Y3RjpGPUZARkNGRkZILUZLNi5RKCZtaW51cztGJ0Y3RjpGTkZQRlJGVEZWRlhGWkZmbkZpbi1GMTYoRl1vRj1GQEZDRkZGSEZmb0ZicEZKRmpwRjdGOkY3RjpGN0Y6</Equation></Text-field>
+</Input>
+</Group>
+<Group view="presentation" inline-output="false" labelreference="L6979" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"> are:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L6980" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">eigvals2 := linearise3d(sys9,CP2)[2]: #Extracting the eigenvalue output from procedure
+eigvalf2 := evalf(eigvals2): #Converting eigenvalues into floats to reduce output
+
+(*Outputting eigenvalues*)
+
+eigvalf2[1];
+eigvalf2[2];
+eigvalf2[3];
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L6977" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">(b)</Text-field></Title><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2907" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+Below is the plot of the trajectory with the initial condition (x(0),y(0),z(0))=(0,0,0).</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2818" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L5935" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(DETools):
+   DEplot3d(sys9,{x(t),y(t),z(t)},t=0..200,[[x(0)=0,y(0)=0,z(0)=0]],linecolor=black,thickness=1,numpoints=2500,title=&quot;Trajectory Plot for Initial Condition (x(0),y(0),z(0))=(0,0,0)&quot;); #Plotting trajectory system in 3D</Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2">(c) </Text-field></Title><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2909" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+To demonstrate the periodicity, we consider large t. Below we use the range t=70 to t=100.
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L6344" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):
+   plot_sys := sys9 union {x(0)=0,y(0)=0,z(0)=0}: #Appending initial conditions.
+   odesolution:=dsolve(plot_sys,numeric,[x(t),y(t),z(t)],output=listprocedure):
+   p1 := odeplot(odesolution,[[t,x(t)],[t,y(t)]],t=70..100,legend=[&quot;x(t)&quot;,&quot;y(t)&quot;],title=&quot;Periodic Behaviour of x(t) and y(t) - (Coefficient 5/2)&quot;,color=[&quot;purple&quot;,&quot;orange&quot;]); #Plotting solutions to system</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L2872" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+Now, we illustrate the limit cycle  by plotting y(t) against x(t):
+</Text-field>
+</Input>
+</Group>
+<Group view="code" labelreference="L9688" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">with(plots):
+   plot_sys := sys9 union {x(0)=0,y(0)=0,z(0)=0}: #Appending initial conditions.
+   odesolution:=dsolve(plot_sys,numeric,[x(t),y(t),z(t)],output=listprocedure):
+   p1 := odeplot(odesolution,[x(t),y(t)],t=100..150,legend=[&quot;x(t)&quot;,&quot;y(t)&quot;],numpoints=800,title=&quot;Limit Cycle for Coefficient 5/2&quot;,color=&quot;blue&quot;); #Plotting solutions to system
+</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L9829" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+Below we replace the 5/2 coefficient with 3  in the system.</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L9831" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L6842" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">We illustrate the periodicity below by considering the range t=70 to t=100:
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L6844" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sys10 := {diff(x(t),t) = -y(t)-z(t), diff(y(t),t) = x(t)+1/5*y(t),diff(z(t),t) = 1/5+(x(t)-3)*z(t)}; #Defining the system of equations with coefficient 3 instead of 5/2
+plot_sys2 := sys10 union {x(0)=0,y(0)=0,z(0)=0}: #Appending initial conditions.
+   odesolution:=dsolve(plot_sys2,numeric,[x(t),y(t),z(t)],output=listprocedure):
+   p1 := odeplot(odesolution,[[t,x(t)],[t,y(t)]],t=70..100,legend=[&quot;x(t)&quot;,&quot;y(t)&quot;],title=&quot;Periodic Behaviour of x(t) and y(t) - (Coefficient 3)&quot;,color=[&quot;DodgerBlue&quot;,&quot;red&quot;]); #Plotting solutions to system</Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L6843" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal">
+Below we illustrate the limit cycle by plotting y(t) against x(t):
+</Text-field>
+</Input>
+</Group>
+<Group view="code" hide-input="false" labelreference="L9745" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">sys10 := {diff(x(t),t) = -y(t)-z(t), diff(y(t),t) = x(t)+1/5*y(t),diff(z(t),t) = 1/5+(x(t)-3)*z(t)}; #Defining the system of equations with coefficient 3 instead of 5/2
+plot_sys2 := sys10 union {x(0)=0,y(0)=0,z(0)=0}: #Appending initial conditions.
+   odesolution:=dsolve(plot_sys2,numeric,[x(t),y(t),z(t)],output=listprocedure):
+   p1 := odeplot(odesolution,[x(t),y(t)],t=100..150,legend=[&quot;x(t)&quot;,&quot;y(t)&quot;],numpoints=1000,title=&quot;Limit Cycle for Coefficient 3&quot;,color=&quot;DarkGoldenrod&quot;); #Plotting solutions to system</Text-field>
+</Input>
+</Group>
+<Group labelreference="L10615" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font style="Maple Input">
+</Font>For a coefficient of -5/2 we observed that the amplitudes of the x(t) and y(t) functions against t remained stable within the period. We see that with changing this coefficient to 3 has led to the amplitudes within the period behaving in a more chaotic manner - the amplitudes are alternating in height by around 1 unit every half cycle for both x(t) and y(t).</Text-field>
+</Input>
+</Group></Presentation-Block>
+</Section>
+</Section><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L6673" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"></Text-field>
+</Input>
+</Group></Presentation-Block><Presentation-Block>
+<Group view="presentation" inline-output="false" labelreference="L7195" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUkjbWlHRiQ2I1EhRicvJStleGVjdXRhYmxlR1EmZmFsc2VGJy8lLG1hdGh2YXJpYW50R1Enbm9ybWFsRic=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYjLUkjbWlHRiQ2I1EhRic=</Equation></Text-field>
+</Input>
+</Group></Presentation-Block>
+</Worksheet>
